@@ -101,16 +101,16 @@
         background-color: #718096;
       }
       .expired {
-        background-color: #e34f6f;
+        background-color: #dc3977;
       }
       .cooperative {
-        background-color: #b9257a;
+        background-color: #2a5674;
       }
       .certified {
         background-color: #4da284;
       }
       .certified_expired {
-        background-color: #e34f6f
+        background-color: #dc3977
       }
       .certified_covid {
         background-color: #7c1d6f
@@ -160,7 +160,7 @@
         }
 
         .red {
-          background: #e34f6f
+          background: #dc3977
         }
         .purple {
           background: #7c1d6f;
@@ -270,13 +270,13 @@
             // 'owner_occupied',
             // '#CBD5E0',
             'expired',
-            '#e34f6f',
+            '#dc3977',
             'cooperative',
-            '#b9257a',
+            '#2a5674',
             'certified',
             '#4da284',
             'certified_expired',
-            '#e34f6f',
+            '#dc3977',
             'certified_covid',
             '#7c1d6f',
             '#dc3977' // shouldn't have any of these
@@ -285,9 +285,10 @@
       }
 
                   // carto colors
+                  // #d1eeea,#a8dbd9,#85c4c9,#68abb8,#4f90a6,#3b738f,#2a5674
                   //#c4e6c3,#96d2a4,#6dbc90,#4da284,#36877a,#266b6e,#1d4f60
             // emrld  #d3f2a3,#97e196,#6cc08b,#4c9b82,#217a79,#105965,#074050
-            // sunset #fcde9c,#faa476,#f0746e,#e34f6f,#dc3977,#b9257a,#7c1d6f
+            // sunset #fcde9c,#faa476,#f0746e,#dc3977,#dc3977,#b9257a,#7c1d6f
 
 
       var border = {
@@ -491,12 +492,17 @@
               stips = `<p>${info.stipulations.trim().replace(/(?:\r\n|\r|\n)/g, '<br>')}</p>`
             }
 
+            var owner = ''
+            if (info.owner) {
+              owner = `<p class="owner">Owner: ${info.owner}</p>`
+            }
+
             var markup = `
             <div class="info">
               <h2>${info.address}</h2>
               <span class="label ${info.clean_status}">${label}</span>
               ${dates}
-              <p class="owner">Owner: ${info.owner}</p>
+              ${owner}
               ${stips}
             </div>
             `
