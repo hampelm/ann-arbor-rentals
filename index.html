@@ -1,0 +1,550 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rental Properties in Ann Arbor, MI</title>
+
+    <script src="js/mapbox-gl.js"></script>
+    <script src="js/city.js"></script>
+    <link rel="stylesheet" href="css/mapbox-gl.css">
+    <script src='js/turf.min.js'></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      html, body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex: 1;
+        color: #333;
+      }
+
+      body {
+        font-size: 16px;
+      }
+
+      #description {
+        flex-basis: 30rem;
+        padding: 2rem;
+        overflow-y: auto;
+        border-right: 1px solid #eee;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h1, h3, p {
+        margin-bottom: 1rem;
+      }
+
+      #map {
+        flex: 1;
+      }
+
+      .img {
+        height: 200px;
+        display: flex;
+        margin-bottom: 1rem;
+      }
+
+      .yep, .nope {
+        flex: 1;
+        background: transparent url('img/yep.jpg') no-repeat right center;
+        background-size: cover;
+      }
+      .nope {
+        background: transparent url('img/nope.jpg') no-repeat center center;
+      }
+
+      .info {
+        padding: 1rem 0;
+        margin: 1rem 0;
+        border-top: 1px solid #A0AEC0;
+        border-bottom: 1px solid #A0AEC0;
+        transition: all 0.15s ease-out;
+      }
+
+      .info .dates {
+        color: #4A5568;
+      }
+
+      .info .label {
+        font-weight: bold;
+      }
+
+      .info p {
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+
+      .label {
+        color: #fff;
+        border-radius: 1em;
+        padding: 3px 10px;
+      }
+      .under_review {
+        background-color: #7c1d6f
+      }
+      .owner_occupied {
+        background-color: #718096;
+      }
+      .expired {
+        background-color: #e34f6f;
+      }
+      .cooperative {
+        background-color: #b9257a;
+      }
+      .certified {
+        background-color: #4da284;
+      }
+      .certified_expired {
+        background-color: #e34f6f
+      }
+      .certified_covid {
+        background-color: #7c1d6f
+      }
+
+      blockquote {
+        padding-left: 0.5rem;
+        margin-bottom: 1rem;
+        border-left: 5px solid #E2E8F0;
+      }
+
+
+      @media only screen and (max-width: 900px) {
+        body {
+          height: auto;
+          display: block;
+          padding-bottom: 5rem;
+        }
+
+        #description {
+          height: auto;
+          flex-basis: none;
+        }
+
+        #map {
+          height: 80vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="description">
+      <h1>Rental properties in Ann Arbor</h1>
+
+      <div id="info"></div>
+
+      <p>The City of Ann Arbor's office of Rental Housing Services inspects each rental every 30 months and certifies it for occupancy.
+        This map shows the certified rentals in Ann Arbor as of May 2020.
+      </p>
+
+      <style>
+        span.dot {
+          display: inline-block;
+          height: 10px;
+          width: 10px;
+          border-radius: 5px;
+        }
+
+        .red {
+          background: #e34f6f
+        }
+        .purple {
+          background: #7c1d6f;
+        }
+        .green {
+          background: #4da284;
+        }
+        .coop {
+          background: #b9257a;
+        }
+      </style>
+
+      <p>Hover over any point for more information on <span class="green dot"></span> active rentals,
+         properties with <span class="red dot"></span> expired certificates,
+         and properties that are <span class="purple dot"></span> under review or have a temporary COVID-19 status, and <span class="coop dot"></span> cooperatives.</p>
+
+      <p>The City shared this important disclaimer:</p>
+      <blockquote>
+        It is important to note that not all of these are active rentals, and therefore,
+        we cannot ensure the accuracy of the information provided for any
+        CR with a status of anything other than “Certified” or “Under Review”.
+      </blockquote>
+
+      <p>You can <a href="./all_crs_5_19_20.csv">download the source data</a>.</p>
+
+      <p>Last updated June 2020 with data from May.</p>
+    </div>
+    <div id="map"></div>
+
+    <script>
+
+      // colors https://tailwindcss.com/docs/customizing-colors/#default-color-palette
+
+      var source = 'osm'
+
+      var allowed = ['R1C', 'R1D', 'R1E', 'R1A', 'R1B',]
+
+      var world = [-180.0, -80.0, 180.0, 84.0 ]
+      var bounds = [
+      -83.799559, 42.222663, -83.6768423, 42.323659
+      ];
+      var maskPoly = turf.polygon(ann_arbor.coordinates);
+
+      var roads = {
+        'id': 'roads',
+        'type': 'line',
+        'source': 'osm',
+        'source-layer': 'transportation',
+        // "filter": ["in", "class", "primary", "secondary", "tertiary", "trunk", "motorway_link", "trunk_link", "primary_link", "secondary_link", "road", "minor", "alley"],
+        "filter": ["in", "class", "primary", "secondary", "trunk", "motorway_link", "trunk_link", "primary_link", ],
+        'layout': {
+          'line-cap': 'round',
+          'line-join': 'round'
+        },
+        'paint': {
+          'line-opacity': 0.6,
+          'line-color': '#CBD5E0',
+          'line-width': 2
+        }
+      }
+
+      var roads_minor = {
+        'id': 'roads_minor',
+        'type': 'line',
+        'source': 'osm',
+        'source-layer': 'transportation',
+        "filter": ["in", "class", "tertiary", "secondary_link", "road", "minor", "alley"],
+        'layout': {
+          'line-cap': 'round',
+          'line-join': 'round'
+        },
+        'paint': {
+          'line-opacity': 0.6,
+          'line-color': [
+            'interpolate',
+            ['exponential', 0.5],
+            ['zoom'],
+            12,
+            '#F0F3F6',
+            18,
+            '#CBD5E0'
+          ],
+          'line-width': 2
+        }
+      }
+
+      var permits = {
+        'id': 'permits',
+        'type': 'circle',
+        'source': 'permits',
+        'source-layer': 'permits',
+        "filter": ["in", "clean_status", "under_review", "expired", "cooperative", "certified", "certified_expired", "certified_covid", ],
+        'paint': {
+          'circle-radius': {
+            'base': 1.75,
+            'stops': [
+            [12, 1],
+            [13, 2],
+            [22, 50]
+            ]
+          },
+          'circle-color': [
+            'match',
+            ['get', 'clean_status'],
+            'under_review',
+            '#7c1d6f',
+            // 'owner_occupied',
+            // '#CBD5E0',
+            'expired',
+            '#e34f6f',
+            'cooperative',
+            '#b9257a',
+            'certified',
+            '#4da284',
+            'certified_expired',
+            '#e34f6f',
+            'certified_covid',
+            '#7c1d6f',
+            '#dc3977' // shouldn't have any of these
+          ]
+        }
+      }
+
+                  // carto colors
+                  //#c4e6c3,#96d2a4,#6dbc90,#4da284,#36877a,#266b6e,#1d4f60
+            // emrld  #d3f2a3,#97e196,#6cc08b,#4c9b82,#217a79,#105965,#074050
+            // sunset #fcde9c,#faa476,#f0746e,#e34f6f,#dc3977,#b9257a,#7c1d6f
+
+
+      var border = {
+        'id': 'border',
+        'type': 'line',
+        'source': 'border',
+        'layout': {
+          'line-cap': 'round',
+          'line-join': 'round'
+        },
+        'paint': {
+          'line-opacity': 1,
+          'line-color': '#EDF2F7',
+          'line-width': 2
+        }
+      }
+
+      var parcels = {
+        'id': 'parcels',
+        'type': 'line',
+        'source': 'parcels',
+        'source-layer': 'mi_washtenaw_parcels',
+        'layout': {
+          'line-cap': 'round',
+          'line-join': 'round'
+        },
+        'paint': {
+          'line-opacity': 0.4,
+          // 'line-color': '#CBD5E0',
+          'line-color': [
+            'interpolate',
+            ['exponential', 0.5],
+            ['zoom'],
+            13,
+            //'#F0F3F6',
+            '#FFFFFF',
+            18,
+            '#CBD5E0'
+          ],
+          'line-width': 1
+        }
+      }
+
+
+      //map.setPaintProperty('building', 'fill-color', );
+
+      //#009392,#39b185,#9ccb86,#e9e29c,#eeb479,#e88471,#cf597e
+
+      var too_small = {
+        'id': 'parcels-too-small',
+        'type': 'fill',
+        'source': 'parcels',
+        'source-layer': 'mi_washtenaw_parcels',
+        "filter": ["all", ["in", "zoning", 'R1C', 'R1D', 'R1E', 'R1A', 'R1B'], ["<", "ll_gissqft", 5000]],
+        'paint': {
+          'fill-opacity': 0.4,
+          'fill-color': '#F6E05E',
+        }
+      }
+
+      var labels = {
+        "id": "highway-name-major",
+        "type": "symbol",
+        "source": source,
+        "source-layer": "transportation_name",
+        "minzoom": 12.2,
+        "filter": ["in", "class", "primary", "secondary", "tertiary", "trunk", "minor"],
+        "layout": {
+          "symbol-placement": "line",
+          "text-field": "{name:latin} {name:nonlatin}",
+          "text-font": ["Open Sans Semibold"],
+          "text-rotation-alignment": "map",
+          "text-size": {"base": 4, "stops": [[13, 12], [14, 13]]}
+        },
+        "paint": {
+          "text-color": "rgba(0, 0, 0, 1)",
+          "text-halo-blur": 0.5,
+          "text-halo-color": "rgba(255, 255, 255, 1)",
+          "text-halo-width": 1
+        }
+      };
+
+      var address_labels = {
+        "id": "address_labels",
+        "type": "symbol",
+        "source": 'ann_arbor_parcel_address',
+        "source-layer": "ann_arbor_parcel_address",
+        "minzoom": 16,
+          "layout": {
+          "symbol-placement": "point",
+          'text-field': "{num}",
+          "text-font": ["Open Sans Semibold"],
+          "text-rotation-alignment": "map",
+          "text-size": [
+          'interpolate', ['exponential', 0.5], ['zoom'],
+            16, 12,
+            17, 12,
+            18, 15,
+            19, 18,
+          ]
+        },
+        "paint": {
+          "text-color": "#CBD5E0",
+          // "text-halo-blur": 0.5,
+          // "text-halo-color": 'red',
+          // "text-halo-width": 1
+        }
+      };
+
+
+      var mask = {
+        id: 'mask',
+        source: 'mask',
+        type: 'fill',
+        paint: {
+          "fill-color": "white",
+          'fill-opacity': 0.85
+        }
+      }
+
+      var map = new mapboxgl.Map({
+        container: 'map',
+        //zoom: 12,
+        //center: [-83.745460, 42.281319],
+        bounds: bounds,
+        style: {
+          version: 8,
+          sources: {
+            osm: {
+              'type': 'vector',
+              'tiles': [
+                location.origin+location.pathname + 'tiles/{z}/{x}/{y}.pbf'
+              ],
+              'minzoom': 8,
+              'maxzoom': 14
+            },
+            parcels: {
+              'type': 'vector',
+              'tiles': [
+                location.origin+location.pathname + 'parcel_tiles/{z}/{x}/{y}.pbf'
+              ],
+              'minzoom': 10,
+              'maxzoom': 14
+            },
+            permits: {
+              'type': 'vector',
+              'tiles': [
+                location.origin+location.pathname + 'permit_tiles/{z}/{x}/{y}.pbf'
+              ],
+              'minzoom': 10,
+              'maxzoom': 14
+            },
+            ann_arbor_parcel_address: {
+              'type': 'vector',
+              'tiles': [
+                location.origin+location.pathname + 'address_labels/{z}/{x}/{y}.pbf'
+              ],
+              'minzoom': 15,
+              'maxzoom': 16
+            },
+            mask: {
+              type: "geojson",
+              data: polyMask(maskPoly, world)
+            },
+            border: {
+              type: "geojson",
+              data: ann_arbor
+            },
+          }, //sources
+          "glyphs": location.origin+location.pathname+"font/{fontstack}/{range}.pbf",
+          //       Lower  ==========================================> Higher
+          layers: [roads, roads_minor, address_labels, parcels, permits, labels, mask, border, ]
+        }
+      });
+
+      map.on('load', function() {
+        var elt = document.getElementById('info')
+        var lastParcel = null
+
+        map.on('mousemove', 'permits', function(e) {
+          zoom = map.getZoom();
+
+
+          if (e.features.length > 0 && zoom > 3) {
+            var info = e.features[0].properties;
+            console.log('xxx info', info)
+
+            var label = info.clean_status.replace(/\_/g, ' ').replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+
+            var dates = ''
+            if (info.issued && info.expired) {
+              dates = `<span class="dates">${info.issued} &ndash; ${info.expired}</span>`
+            } else if (info.expired) {
+              dates = `<span class="dates">Expires ${info.expired}</span>`
+            } else if (info.issued) {
+              dates = `<span class="dates">Issued ${info.issued}</span>`
+            }
+
+            var stips = ''
+            if (info.stipulations) {
+              stips = `<p>${info.stipulations.trim().replace(/(?:\r\n|\r|\n)/g, '<br>')}</p>`
+            }
+
+            var markup = `
+            <div class="info">
+              <h2>${info.address}</h2>
+              <span class="label ${info.clean_status}">${label}</span>
+              ${dates}
+              <p class="owner">Owner: ${info.owner}</p>
+              ${stips}
+            </div>
+            `
+
+            elt.innerHTML = markup;
+          }
+        });
+        map.on('mouseleave', 'parcels', function(e) {
+          elt.innerHTML = '';
+
+        })
+
+        map.on('mousemove', 'parcels', function(e) {
+          console.log('xxx', e.features)
+
+          if (e.features.length == 0) {
+            elt.innerHTML = '';
+          } else {
+            var parcel = e.features[0].properties;
+            if (parcel.address !== lastParcel) {
+              elt.innerHTML = '';
+            }
+            lastParcel = parcel.address
+            console.log('xxx', parcel)
+          }
+        });
+      });
+
+      /*
+      address: "934 S STATE ST"
+​
+      clean_status: "certified"
+      ​
+      expired: "01/13/2021"
+      ​
+      issued: "07/23/2018"
+      ​
+      owner: "VESSELS, LLC"
+      ​
+      stipulations: "1 - 5 bedroom unit with 6 occupants max\n1 - 6 bedroom unit with 6 occupants max"
+      */
+
+
+      function polyMask(mask, bounds) {
+        var bboxPoly = turf.bboxPolygon(bounds);
+        var diff = turf.difference(bboxPoly, mask);
+        return diff;
+      }
+    </script>
+  </body>
+</html>

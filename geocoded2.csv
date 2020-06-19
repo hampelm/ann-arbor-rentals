@@ -1,0 +1,835 @@
+address,city,state,Latitude,Longitude,"Accuracy Score","Accuracy Type",Number,Street,"Unit Type","Unit Number",City,State,County,Zip,Country,Source
+"2238 DEXTER AVE","Ann Arbor",MI,42.285278,-83.776265,1,rooftop,2238,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+CR14-0038,"Ann Arbor",MI,42.323965,-83.712673,0.6,street_center,,"M 14",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"715 N MAPLE RD","Ann Arbor",MI,42.287353,-83.780666,1,range_interpolation,715,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2236 DEXTER AV","Ann Arbor",MI,42.285222,-83.77663,1,rooftop,2236,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2489 LAURELWOOD CIR","Ann Arbor",MI,42.233137,-83.711637,1,range_interpolation,2489,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1549 PINE VALLEY BLV","Ann Arbor",MI,42.251812,-83.724064,0.8,nearest_rooftop_match,1541,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"630 N MAIN ST","Ann Arbor",MI,42.287259,-83.747599,1,rooftop,630,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2735 SEQUOIA PKY","Ann Arbor",MI,42.292359,-83.785816,1,rooftop,2735,"Sequoia Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"555 E WILLIAM ST 20G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 20G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"339 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2190 ANN ARBOR-SALINE RD","Ann Arbor",MI,42.254548,-83.753408,1,rooftop,2190,"Ann Arbor-saline Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 13H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 13H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"737 N MAPLE RD","Ann Arbor",MI,42.287604,-83.780673,1,range_interpolation,737,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"275 HARBOR WAY","Ann Arbor",MI,42.248234,-83.748491,1,range_interpolation,275,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1531 PACKARD ST 2","Ann Arbor",MI,42.262865,-83.731488,1,rooftop,1531,"Packard St 2",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"311 E MADISON ST","Ann Arbor",MI,42.274325,-83.745877,1,rooftop,311,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2242 DEXTER AVE","Ann Arbor",MI,42.285751,-83.775796,1,rooftop,2242,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2219 Shadowood Dr","Ann Arbor",MI,42.231811,-83.71388,1,range_interpolation,2219,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 13F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 13F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1102 MAIDEN LANE CT","Ann Arbor",MI,42.288101,-83.733239,1,rooftop,1102,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 2A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 2A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"507 N FIFTH AV","Ann Arbor",MI,42.285152,-83.74628,1,rooftop,507,"N 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"611 HOWLEY CT","Ann Arbor",MI,42.290694,-83.740775,1,range_interpolation,611,"Howley Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1050 WALL ST 5C","Ann Arbor",MI,42.287201,-83.73475,1,rooftop,1050,"Wall St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3030 FERNWOOD AV","Ann Arbor",MI,42.24425,-83.693977,1,range_interpolation,3030,"Fernwood Ave",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"202 W WILLIAM ST","Ann Arbor",MI,42.278129,-83.750119,1,rooftop,202,"W William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"322 S DIVISION ST","Ann Arbor",MI,42.278695,-83.744938,1,rooftop,322,"S Division St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2674 S MAIN ST","Ann Arbor",MI,42.248493,-83.749539,1,range_interpolation,2674,"S Main St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2745 WINDWOOD DR","Ann Arbor",MI,42.318533,-83.707302,0.9,range_interpolation,2745,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2269 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1855 FRANKLIN CT N","Ann Arbor",MI,42.298534,-83.779316,1,rooftop,1855,"N Franklin Ct",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"808 MONROE ST","Ann Arbor",MI,42.273133,-83.738884,1,rooftop,808,"Monroe St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2240 DEXTER AVE","Ann Arbor",MI,42.285322,-83.775907,1,rooftop,2240,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1106 MAIDEN LANE CT","Ann Arbor",MI,42.288424,-83.732849,1,rooftop,1106,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2268 Shadowood Dr","Ann Arbor",MI,42.232036,-83.714379,1,range_interpolation,2268,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1831 LAKE LILA DR","Ann Arbor",MI,42.299331,-83.717115,1,range_interpolation,1831,"Lake Lila Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2311 LANCASHIRE DR","Ann Arbor",MI,42.310086,-83.71689,1,range_interpolation,2311,"Lancashire Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3055 WHISPERWOOD DR","Ann Arbor",MI,42.316473,-83.702844,1,range_interpolation,3055,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1859 SHIRLEY LN","Ann Arbor",MI,42.300957,-83.719379,1,range_interpolation,1859,"Shirley Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2931 EWhittier Ct","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 16A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 16A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"820 S MAPLE RD","Ann Arbor",MI,42.271933,-83.780135,1,range_interpolation,820,"S Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2225 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3010 FERNWOOD AVE","Ann Arbor",MI,42.244413,-83.693974,1,range_interpolation,3010,"Fernwood Ave",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1721 BROADVIEW LN","Ann Arbor",MI,42.299045,-83.724836,1,range_interpolation,1721,"Broadview Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"163 EDENWOOD DR","Ann Arbor",MI,42.251439,-83.746961,1,range_interpolation,163,Edenwood,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"549 LONG SHORE DR A","Ann Arbor",MI,42.291632,-83.740838,1,rooftop,549,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2492 LAURELWOOD CIR","Ann Arbor",MI,42.233186,-83.711329,1,range_interpolation,2492,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 3A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 12D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 12D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2393 JONATHAN CT","Ann Arbor",MI,42.230189,-83.710146,1,range_interpolation,2393,"Jonathan Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3387 WILLIAMSBURG DR","Ann Arbor",MI,42.237331,-83.695958,0.6,range_interpolation,3387,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"339 THIRD ST","Ann Arbor",MI,42.278584,-83.753461,1,range_interpolation,339,"3rd St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 18B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 18B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1731 BROADVIEW LN","Ann Arbor",MI,42.298909,-83.724274,1,range_interpolation,1731,"Broadview Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"316 N STATE ST","Ann Arbor",MI,42.278762,-83.741133,1,rooftop,316,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+CR11-0181,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2725 BURTON RD","Ann Arbor",MI,42.247305,-83.685223,1,range_interpolation,2725,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 22L","Ann Arbor",MI,42.278,-83.742401,1,rooftop,555,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"323 N MAIN ST","Ann Arbor",MI,42.284044,-83.74872,1,rooftop,323,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 9G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 9G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3024 WOLVERINE DR","Ann Arbor",MI,42.236588,-83.699266,1,range_interpolation,3024,"Wolverine Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1421 NATALIE LN","Ann Arbor",MI,42.293011,-83.683172,1,range_interpolation,1421,"Natalie Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1825 PAULINE BLVD","Ann Arbor",MI,42.267874,-83.770165,1,range_interpolation,1825,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3031 N SPURWAY DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2357 SANDALWOOD CIR","Ann Arbor",MI,42.30651,-83.710311,1,range_interpolation,2357,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"408 WSummit St","Ann Arbor",MI,42.289244,-83.752029,0.9,rooftop,408,"W Summit St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2248 DEXTER AV","Ann Arbor",MI,42.285736,-83.776684,1,rooftop,2248,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2004 MANCHESTER RD","Ann Arbor",MI,42.25775,-83.710501,1,range_interpolation,2004,"Manchester Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"401 WAYMARKET DR","Ann Arbor",MI,42.244234,-83.75734,1,range_interpolation,401,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2393 SANDALWOOD CIR","Ann Arbor",MI,42.305814,-83.709168,1,range_interpolation,2393,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2344 LESLIE CIR","Ann Arbor",MI,42.309074,-83.713889,1,range_interpolation,2344,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2310 Shadowood Dr","Ann Arbor",MI,42.23203,-83.713651,1,range_interpolation,2310,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3705 GREEN BRIER BLVD","Ann Arbor",MI,42.29919,-83.688509,1,rooftop,3705,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 19D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 19D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3049 VALENCIA CIR","Ann Arbor",MI,42.235042,-83.717981,0.81,nearest_rooftop_match,3045,"Valencia Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"2966 HUNLEY DR","Ann Arbor",MI,42.315076,-83.731289,1,rooftop,2966,"Hunley Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2180 ST FRANCIS DR","Ann Arbor",MI,42.259048,-83.716626,0.9,range_interpolation,2180,"St Francis Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"120 LAKE VILLAGE DR","Ann Arbor",MI,42.250255,-83.748798,1,range_interpolation,120,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2499 SANDALWOOD CIR","Ann Arbor",MI,42.308331,-83.708438,1,range_interpolation,2499,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3611 GREEN BRIER BLV","Ann Arbor",MI,42.298471,-83.690124,1,range_interpolation,3611,"Green Brier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3127 LAKEHAVEN DR","Ann Arbor",MI,42.285929,-83.697081,1,rooftop,3127,Lakehaven,,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"106 N FOURTH AV","Ann Arbor",MI,42.281704,-83.746939,1,rooftop,106,"N 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1049 ISLAND DRIVE CT","Ann Arbor",MI,42.290378,-83.733277,1,rooftop,1049,"Island Drive Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"402 S FIFTH AV","Ann Arbor",MI,42.277847,-83.746334,1,range_interpolation,402,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1813 WILLOWTREE LN","Ann Arbor",MI,42.299165,-83.717069,1,range_interpolation,1813,"Willowtree Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 25G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 25G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 22G","Ann Arbor",MI,42.278,-83.742401,1,rooftop,555,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"555 E WILLIAM ST 14J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 14J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"443 S DIVISION ST","Ann Arbor",MI,42.277074,-83.743988,1,range_interpolation,443,"S Division St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2335 SANDALWOOD CIR","Ann Arbor",MI,42.307241,-83.710619,1,range_interpolation,2335,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"439 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"880 S MAPLE RD","Ann Arbor",MI,42.271274,-83.780122,1,range_interpolation,880,"S Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2250 DEXTER AV","Ann Arbor",MI,42.284811,-83.776949,1,rooftop,2250,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"500 E WASHINGTON ST","Ann Arbor",MI,42.280179,-83.743208,1,range_interpolation,500,"E Washington St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 2F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 2F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1321 NATALIE LN","Ann Arbor",MI,42.292021,-83.683425,1,range_interpolation,1321,"Natalie Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"709 N MAPLE RD","Ann Arbor",MI,42.287229,-83.780656,1,range_interpolation,709,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3170 Williamsburg Dr","Ann Arbor",MI,42.235046,-83.696424,0.6,range_interpolation,3170,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1415 WStadium Blvd","Ann Arbor",MI,42.261055,-83.731275,0.9,rooftop,1415,"E Stadium Blvd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2004 MEDFORD RD","Ann Arbor",MI,42.259056,-83.716662,1,range_interpolation,2004,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2765 WINDWOOD DR","Ann Arbor",MI,42.318832,-83.707284,1,range_interpolation,2765,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"217 N FIFTH AV","Ann Arbor",MI,42.282886,-83.746312,1,rooftop,217,"N 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"721 N MAPLE RD","Ann Arbor",MI,42.286861,-83.78216,1,rooftop,721,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+CR14-0049,"Ann Arbor",MI,42.323965,-83.712673,0.6,street_center,,"M 14",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 3I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"645 WAYMARKET DR","Ann Arbor",MI,42.241676,-83.755855,1,range_interpolation,645,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"431 S FIRST ST","Ann Arbor",MI,42.276954,-83.750861,1,rooftop,431,"S 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2980 CASCADE DR","Ann Arbor",MI,42.245728,-83.701545,1,range_interpolation,2980,"Cascade Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3065 WHISPERWOOD DR","Ann Arbor",MI,42.316197,-83.701463,0.76,nearest_rooftop_match,3097,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 26J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 26J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1502 JONES DR","Ann Arbor",MI,42.294731,-83.731174,1,range_interpolation,1502,"Jones Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"225 SUNSET RD","Ann Arbor",MI,42.290693,-83.748106,1,range_interpolation,225,"Sunset Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"549 S FIFTH AV","Ann Arbor",MI,42.274601,-83.746023,1,rooftop,549,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"917 PACKARD ST","Ann Arbor",MI,42.268164,-83.737588,1,range_interpolation,917,"Packard St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"214 SMain St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2339 SHADOWOOD DR","Ann Arbor",MI,42.233082,-83.713268,1,range_interpolation,2339,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2384 LESLIE CIR","Ann Arbor",MI,42.309096,-83.713365,1,range_interpolation,2384,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 16B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 16B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1855 SHIRLEY LN","Ann Arbor",MI,42.301016,-83.719231,1,range_interpolation,1855,"Shirley Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2236 FULLER CT","Ann Arbor",MI,42.286054,-83.717159,1,range_interpolation,2236,"Fuller Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"702 NFifth Ave","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"712 N MAIN ST","Ann Arbor",MI,42.287539,-83.747698,1,range_interpolation,712,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3135 S STATE ST","Ann Arbor",MI,42.242143,-83.739043,1,range_interpolation,3135,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 17J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 17J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3164 Williamsburg Dr","Ann Arbor",MI,42.235024,-83.696505,0.6,range_interpolation,3164,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"224 SUNSET RD","Ann Arbor",MI,42.290926,-83.747916,1,range_interpolation,224,"Sunset Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 15K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 15K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"419 S FIFTH AV","Ann Arbor",MI,42.277569,-83.746044,1,range_interpolation,419,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 13E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 13E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1021 ISLAND DRIVE CT","Ann Arbor",MI,42.290335,-83.732435,1,rooftop,1021,"Island Drive Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"635 S FIRST ST","Ann Arbor",MI,42.273611,-83.750909,1,range_interpolation,635,"S 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3025 WHISPERWOOD DR","Ann Arbor",MI,42.317263,-83.703204,1,range_interpolation,3025,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"6 PARK VIEW PL","Ann Arbor",MI,42.282492,-83.754245,1,rooftop,6,"Park View Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1500 PAULINE BLVD A","Ann Arbor",MI,42.268485,-83.76546,1,rooftop,1500,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+CR19-0124,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3000 WASHTENAW AVE","Ann Arbor",MI,42.257225,-83.700136,1,rooftop,3000,"Washtenaw Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2738 HIKONE RD","Ann Arbor",MI,42.242356,-83.714196,1,range_interpolation,2738,"Hikone Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2345 LESLIE CIR","Ann Arbor",MI,42.309374,-83.713892,1,range_interpolation,2345,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 11F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 11F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"931 E ANN ST","Ann Arbor",MI,42.282566,-83.737013,1,rooftop,931,"E Ann St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3010 WHISPERWOOD DR","Ann Arbor",MI,42.318601,-83.702214,1,range_interpolation,3010,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1930 W LIBERTY ST","Ann Arbor",MI,42.27656,-83.771816,1,range_interpolation,1930,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3069 Williamsburg Dr","Ann Arbor",MI,42.235238,-83.697404,0.6,range_interpolation,3069,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3011 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.8,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"555 E WILLIAM ST 5I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 5I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2467 SANDALWOOD CIR","Ann Arbor",MI,42.30818,-83.708044,1,range_interpolation,2467,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3338 WILLIAMSBURG DR","Ann Arbor",MI,42.236623,-83.696294,0.6,range_interpolation,3338,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"612 CHURCH ST","Ann Arbor",MI,42.274511,-83.734858,1,rooftop,612,"Church St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"234 CHAPIN ST","Ann Arbor",MI,42.28313,-83.753229,1,range_interpolation,234,"Chapin St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1421 WLiberty St","Ann Arbor",MI,42.276269,-83.765302,0.9,rooftop,1421,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 4C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 4C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3060 WHISPERWOOD DR","Ann Arbor",MI,42.317465,-83.703256,0.9,range_interpolation,3060,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 8B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 8B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3045 WHISPERWOOD DR","Ann Arbor",MI,42.318154,-83.702996,1,range_interpolation,3045,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 20J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 20J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3009 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.8,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"525 LONG SHORE DR B","Ann Arbor",MI,42.292012,-83.741442,1,rooftop,525,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2274 SHADOWOOD DR","Ann Arbor",MI,42.232025,-83.714381,1,range_interpolation,2274,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2755 WINDWOOD DR","Ann Arbor",MI,42.318843,-83.707556,1,range_interpolation,2755,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1516 PINE VALLEY BLV","Ann Arbor",MI,42.250058,-83.725172,0.82,nearest_rooftop_match,1514,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"213 N SEVENTH ST","Ann Arbor",MI,42.283166,-83.759054,1,range_interpolation,213,"N 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"942 N MAIN ST","Ann Arbor",MI,42.29077,-83.746883,1,range_interpolation,942,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2263 Shadowood Dr","Ann Arbor",MI,42.231819,-83.714026,1,range_interpolation,2263,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1307 WASHTENAW AVE","Ann Arbor",MI,42.276334,-83.73251,1,rooftop,1307,"Washtenaw Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"425 S FIFTH AVE","Ann Arbor",MI,42.277469,-83.746048,1,range_interpolation,425,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2365 LESLIE CIR","Ann Arbor",MI,42.309383,-83.713571,1,range_interpolation,2365,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2295 SHADOWOOD DR","Ann Arbor",MI,42.231825,-83.714131,1,range_interpolation,2295,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"915 MAIDEN LN","Ann Arbor",MI,42.289678,-83.737635,1,rooftop,915,"Maiden Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"1265 JEWETT AV","Ann Arbor",MI,42.25424,-83.731238,1,rooftop,1265,"Jewett Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3030 WHISPERWOOD DR","Ann Arbor",MI,42.318581,-83.70274,1,range_interpolation,3030,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"305 EAnn St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 19C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 19C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"220 LYNDEN GLEN DR","Ann Arbor",MI,42.251991,-83.746255,1,range_interpolation,220,"Lynden Glen Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1257 N MAIN ST","Ann Arbor",MI,42.296662,-83.746658,1,range_interpolation,1257,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 23H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 23H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"533 539 Long Shore Dr","Ann Arbor",MI,42.292272,-83.741146,1,rooftop,539,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"545 LONG SHORE DR A","Ann Arbor",MI,42.291364,-83.740842,1,rooftop,545,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"300 WINDY CREST DR","Ann Arbor",MI,42.277744,-83.692124,1,range_interpolation,300,"Windy Crest Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"735 N MAPLE RD","Ann Arbor",MI,42.287581,-83.780673,1,range_interpolation,735,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2344 Shadowood Dr","Ann Arbor",MI,42.232317,-83.713572,1,range_interpolation,2344,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"311 E LIBERTY ST","Ann Arbor",MI,42.279652,-83.745936,1,range_interpolation,311,"E Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2964 HUNLEY DR","Ann Arbor",MI,42.315019,-83.731292,1,rooftop,2964,"Hunley Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"208 W HURON ST","Ann Arbor",MI,42.281614,-83.749793,1,range_interpolation,208,"W Huron St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 19H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 19H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1318 WILMOT ST","Ann Arbor",MI,42.276426,-83.732271,1,rooftop,1318,"Wilmot St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3003 SEQUOIA PKY","Ann Arbor",MI,42.292814,-83.789312,1,rooftop,3003,"Sequoia Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2249 Shadowood Dr","Ann Arbor",MI,42.231817,-83.713979,1,range_interpolation,2249,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1000 W HURON ST A","Ann Arbor",MI,42.282016,-83.759928,1,rooftop,1000,"W Huron St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2401 SANDALWOOD CIR","Ann Arbor",MI,42.305676,-83.7087,1,range_interpolation,2401,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 9C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 9C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3083 PLATT RD","Ann Arbor",MI,42.244505,-83.699937,1,range_interpolation,3083,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 5D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 5D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2395 Jonathan Ct","Ann Arbor",MI,42.230146,-83.710146,1,range_interpolation,2395,"Jonathan Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2321 SHADOWOOD DR","Ann Arbor",MI,42.232583,-83.713761,1,range_interpolation,2321,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2015 MEDFORD RD","Ann Arbor",MI,42.257308,-83.714315,1,range_interpolation,2015,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2750 HIKONE RD","Ann Arbor",MI,42.241415,-83.713951,1,range_interpolation,2750,"Hikone Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1620 CAMBRIDGE RD","Ann Arbor",MI,42.270405,-83.728308,1,range_interpolation,1620,"Cambridge Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"150 LAKE VILLAGE DR","Ann Arbor",MI,42.25073,-83.74891,1,range_interpolation,150,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 16F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 16F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3805 GREEN BRIER BLVD","Ann Arbor",MI,42.298289,-83.687233,1,rooftop,3805,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 14G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 14G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"614 SFirst St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"212 E WASHINGTON ST 1","Ann Arbor",MI,42.280445,-83.751148,0.4,range_interpolation,212,"S 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"378 WAY MARKET DR","Ann Arbor",MI,42.242095,-83.755284,1,rooftop,378,"Way Market Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"275 LAKE VILLAGE DR","Ann Arbor",MI,42.251209,-83.746425,1,range_interpolation,275,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3059 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.6,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"408 N FIRST ST","Ann Arbor",MI,42.284466,-83.750541,1,rooftop,408,"N 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"3675 GREEN BRIER BLVD","Ann Arbor",MI,42.299356,-83.689264,1,rooftop,3675,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2473 SANDALWOOD CIR","Ann Arbor",MI,42.308196,-83.708114,1,range_interpolation,2473,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2481 SANDALWOOD CIR","Ann Arbor",MI,42.308227,-83.708212,1,range_interpolation,2481,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 11G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 11G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2403 PACKARD ST 35D","Ann Arbor",MI,42.253795,-83.723783,1,rooftop,2403,"Packard St 35D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 3G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 3G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2495 SANDALWOOD CIR","Ann Arbor",MI,42.308305,-83.708398,1,range_interpolation,2495,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"840 S MAPLE RD","Ann Arbor",MI,42.271713,-83.78013,1,range_interpolation,840,"S Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2795 WINDWOOD DR","Ann Arbor",MI,42.317406,-83.706211,1,range_interpolation,2795,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 17B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 17B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"490 VILLAGE OAKS CT","Ann Arbor",MI,42.253469,-83.755303,1,range_interpolation,490,"Village Oaks Ct",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1348 WILMOT CT","Ann Arbor",MI,42.27632,-83.73104,1,rooftop,1348,"Wilmot Ct",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"133 HARBOR WAY","Ann Arbor",MI,42.247702,-83.748506,1,range_interpolation,133,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2449 SANDALWOOD CIR","Ann Arbor",MI,42.308161,-83.707781,1,range_interpolation,2449,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"442 S FOURTH AV","Ann Arbor",MI,42.27654,-83.747866,1,rooftop,442,"S 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"322 E LIBERTY ST 5","Ann Arbor",MI,42.279207,-83.745182,1,rooftop,322,"E Liberty St 5",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 6H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 6H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1521 S STATE ST","Ann Arbor",MI,42.262435,-83.740256,1,range_interpolation,1521,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"626 N MAIN ST","Ann Arbor",MI,42.287169,-83.747617,1,rooftop,626,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1115 NORMAN PL","Ann Arbor",MI,42.267776,-83.769416,1,range_interpolation,1115,"Norman Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2715 WINDWOOD DR","Ann Arbor",MI,42.318542,-83.707551,0.9,range_interpolation,2715,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"320 E LIBERTY ST","Ann Arbor",MI,42.279344,-83.745797,1,range_interpolation,320,"E Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2640 ADRIENNE DR","Ann Arbor",MI,42.26852,-83.782166,1,range_interpolation,2640,"Adrienne Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"733 N MAPLE RD","Ann Arbor",MI,42.287558,-83.780672,1,range_interpolation,733,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 25B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 25B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1815 FRANKLIN CT N","Ann Arbor",MI,42.29817,-83.779529,1,rooftop,1815,"N Franklin Ct",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"309 PACKARD ST","Ann Arbor",MI,42.275623,-83.746127,1,range_interpolation,309,"Packard St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 2H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 2H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 6G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 6G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"645 HIDDEN VALLEY CLUB DR","Ann Arbor",MI,42.247142,-83.740782,1,range_interpolation,645,"Hidden Valley Club Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"120 E LIBERTY ST","Ann Arbor",MI,42.279429,-83.748388,1,range_interpolation,120,"E Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3053 LAKEHAVEN CT","Ann Arbor",MI,42.286621,-83.698702,1,range_interpolation,3053,"Lakehaven Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1713 GREEN RD","Ann Arbor",MI,42.298176,-83.692685,1,range_interpolation,1713,"Green Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"725 N MAPLE RD","Ann Arbor",MI,42.287467,-83.780669,1,range_interpolation,725,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1116 1118 Woodlawn Ave","Ann Arbor",MI,42.265295,-83.733482,1,rooftop,1116,"Woodlawn Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"729 N MAPLE RD","Ann Arbor",MI,42.287513,-83.780671,1,range_interpolation,729,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2300 LESLIE CIR","Ann Arbor",MI,42.308839,-83.714705,1,range_interpolation,2300,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2767 PLYMOUTH RD","Ann Arbor",MI,42.302708,-83.706514,1,range_interpolation,2767,"Plymouth Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"718 N MAIN ST","Ann Arbor",MI,42.287601,-83.747678,1,range_interpolation,718,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2008 TRAVER RD","Ann Arbor",MI,42.302499,-83.725721,1,range_interpolation,2008,"Traver Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2450 Laurelwood Cir","Ann Arbor",MI,42.232318,-83.712091,1,range_interpolation,2450,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1538 PINE VALLEY BLV","Ann Arbor",MI,42.251246,-83.723565,0.82,nearest_rooftop_match,1540,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2705 WINDWOOD DR","Ann Arbor",MI,42.318546,-83.707634,0.9,range_interpolation,2705,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1106 NORMAN PL","Ann Arbor",MI,42.267866,-83.769584,1,range_interpolation,1106,"Norman Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2245 Shadowood Dr","Ann Arbor",MI,42.231816,-83.713966,1,range_interpolation,2245,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"207 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3455 PLATT RD","Ann Arbor",MI,42.239318,-83.699863,1,range_interpolation,3455,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 12J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 12J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1114 MAIDEN LANE CT","Ann Arbor",MI,42.289258,-83.732355,1,rooftop,1114,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1050 WALL ST 1E","Ann Arbor",MI,42.287201,-83.73475,1,rooftop,1050,"Wall St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3845 GREEN BRIER BLVD","Ann Arbor",MI,42.297708,-83.686839,1,rooftop,3845,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2962 HUNLEY DR","Ann Arbor",MI,42.314958,-83.731286,1,rooftop,2962,"Hunley Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2265 Shadowood Dr","Ann Arbor",MI,42.231819,-83.714032,1,range_interpolation,2265,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 5F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 5F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 8G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 8G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 17C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 17C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+CR072625,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 5H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 5H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2409 PACKARD ST 50E","Ann Arbor",MI,42.25355,-83.72412,1,rooftop,2409,"Packard St 50E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2884 EEisenhower Pkwy","Ann Arbor",MI,42.244529,-83.723644,1,rooftop,2884,"E Eisenhower Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"555 E WILLIAM ST 5L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 5L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2269 Hardyke Ct","Ann Arbor",MI,42.23182,-83.714045,1,range_interpolation,2269,"Hardyke Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3078 WILLIAMSBURG DR","Ann Arbor",MI,42.23497,-83.697535,0.6,range_interpolation,3078,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"507 MACK RD","Ann Arbor",MI,42.27616,-83.731177,1,rooftop,507,"Mack Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1863 LAKE LILA DR","Ann Arbor",MI,42.299648,-83.717247,1,range_interpolation,1863,"Lake Lila Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"510 MACK RD","Ann Arbor",MI,42.276132,-83.73149,1,rooftop,510,"Mack Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2364 LESLIE CIR","Ann Arbor",MI,42.309084,-83.713551,1,range_interpolation,2364,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2270 Shadowood Dr","Ann Arbor",MI,42.232032,-83.71438,1,range_interpolation,2270,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 24H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 24H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2800 WINDWOOD DR","Ann Arbor",MI,42.316978,-83.706222,1,range_interpolation,2800,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3144 CHERRY TREE LA","Ann Arbor",MI,42.24329,-83.686215,1,rooftop,3144,"Cherry Tree Ln",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"707 N MAPLE RD","Ann Arbor",MI,42.287128,-83.780653,1,range_interpolation,707,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1400 SAUNDERS CRS","Ann Arbor",MI,42.293511,-83.770948,1,rooftop,1400,"Saunders Crs",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"517 S FIRST ST","Ann Arbor",MI,42.275835,-83.7509,1,range_interpolation,517,"S 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3017 LAKEHAVEN CT","Ann Arbor",MI,42.286643,-83.698232,1,range_interpolation,3017,"Lakehaven Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"518 OSWEGO ST","Ann Arbor",MI,42.274513,-83.723366,1,range_interpolation,518,"Oswego St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"223 HARBOR WAY","Ann Arbor",MI,42.248039,-83.748496,1,range_interpolation,223,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"241 S SEVENTH ST","Ann Arbor",MI,42.279892,-83.757934,1,rooftop,241,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"420 KELLOGG ST","Ann Arbor",MI,42.293162,-83.741423,1,range_interpolation,420,"Kellogg St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2010 WASHTENAW AV","Ann Arbor",MI,42.267008,-83.721466,1,range_interpolation,2010,"Washtenaw Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"727 N MAPLE RD","Ann Arbor",MI,42.28749,-83.78067,1,range_interpolation,727,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"605 HIDDEN VALLEY CLUB DR","Ann Arbor",MI,42.246881,-83.739426,1,range_interpolation,605,"Hidden Valley Club Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"629 S FOREST AVE","Ann Arbor",MI,42.273972,-83.73281,1,rooftop,629,"S Forest Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"555 E WILLIAM ST 23G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 23G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1114 FOUNTAIN ST","Ann Arbor",MI,42.292813,-83.753675,1,rooftop,1114,"Fountain St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+CR4831,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1518 PINE VALLEY BLV","Ann Arbor",MI,42.250288,-83.724912,0.82,nearest_rooftop_match,1520,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1029 1031 Wellington Ct","Ann Arbor",MI,42.268844,-83.73216,1,rooftop,1031,"Wellington Ct",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1910 W LIBERTY ST","Ann Arbor",MI,42.275777,-83.772002,1,range_interpolation,1910,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 9H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 9H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"509 LONG SHORE DR A","Ann Arbor",MI,42.291509,-83.741513,1,rooftop,509,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"522 MONROE ST","Ann Arbor",MI,42.273035,-83.742085,1,rooftop,522,"Monroe St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"711 N MAPLE RD","Ann Arbor",MI,42.28733,-83.780659,1,range_interpolation,711,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"113 EIGHTH ST","Ann Arbor",MI,42.28118,-83.759614,1,rooftop,113,"8th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2758 COLLEY LN","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"169 HARBOR WAY","Ann Arbor",MI,42.247837,-83.748502,1,range_interpolation,169,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1128 MILLER AVE 2","Ann Arbor",MI,42.287663,-83.761535,1,rooftop,1128,"Miller Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"2335 LANCASHIRE DR","Ann Arbor",MI,42.31001,-83.716299,1,range_interpolation,2335,"Lancashire Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 15A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 15A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3277 PLATT RD","Ann Arbor",MI,42.241333,-83.699881,1,range_interpolation,3277,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"427 S SEVENTH ST","Ann Arbor",MI,42.27704,-83.758362,1,range_interpolation,427,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1635 LEAIRD DR","Ann Arbor",MI,42.2947,-83.729197,1,range_interpolation,1635,"Leaird Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1875 LAKE LILA DR","Ann Arbor",MI,42.299762,-83.717261,1,range_interpolation,1875,"Lake Lila Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2454 Laurelwood Cir","Ann Arbor",MI,42.232347,-83.71182,1,range_interpolation,2454,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1424 CREAL CRES","Ann Arbor",MI,42.293746,-83.773579,1,range_interpolation,1424,"Creal Cres",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"425 S SEVENTH ST","Ann Arbor",MI,42.277069,-83.758362,1,range_interpolation,425,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2825 BEACON HILL ST","Ann Arbor",MI,42.25113,-83.702392,1,rooftop,2825,"Beacon Hill St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1851 LAKE LILA DR","Ann Arbor",MI,42.299514,-83.717167,1,range_interpolation,1851,"Lake Lila Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3026 WOLVERINE DR","Ann Arbor",MI,42.236438,-83.699266,1,range_interpolation,3026,"Wolverine Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3457 PLATT RD","Ann Arbor",MI,42.239292,-83.699863,1,range_interpolation,3457,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2019 MEDFORD RD","Ann Arbor",MI,42.259198,-83.716319,1,range_interpolation,2019,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2347 Shadowood Dr","Ann Arbor",MI,42.233111,-83.713176,1,range_interpolation,2347,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3031 WILLIAMSBURG DR","Ann Arbor",MI,42.234393,-83.695404,0.76,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"3735 GREEN BRIER BLVD","Ann Arbor",MI,42.298685,-83.688432,1,rooftop,3735,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3070 WHISPERWOOD DR","Ann Arbor",MI,42.318672,-83.703077,1,range_interpolation,3070,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"617 S FOREST AV","Ann Arbor",MI,42.274843,-83.732929,1,range_interpolation,617,"S Forest Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"117 WWashington St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2035 MEDFORD RD","Ann Arbor",MI,42.257221,-83.714408,1,range_interpolation,2035,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"920 GREENE ST","Ann Arbor",MI,42.27017,-83.747666,1,range_interpolation,920,"Greene St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2300 ST FRANCIS DR","Ann Arbor",MI,42.258718,-83.716862,1,range_interpolation,2300,"St Francis Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"824 GREENE ST","Ann Arbor",MI,42.271375,-83.74769,1,range_interpolation,824,"Greene St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2317 SANDALWOOD CIR","Ann Arbor",MI,42.307836,-83.710585,1,range_interpolation,2317,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 26F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 26F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"605 HOWLEY CT","Ann Arbor",MI,42.290702,-83.740803,1,range_interpolation,605,"Howley Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2750 WINDWOOD DR","Ann Arbor",MI,42.318531,-83.707261,1,range_interpolation,2750,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3291 TURNBERRY LA","Ann Arbor",MI,42.236043,-83.688181,1,rooftop,3291,"Turnberry Ln",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"2801 PONTIAC TRL","Ann Arbor",MI,42.313043,-83.735483,1,rooftop,2801,"Pontiac Trl",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"549 LONG SHORE DR B","Ann Arbor",MI,42.291645,-83.740963,1,rooftop,549,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"555 E WILLIAM ST 15I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 15I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"140 LYNDEN GLEN DR","Ann Arbor",MI,42.251905,-83.748455,1,range_interpolation,140,"Lynden Glen Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2810 WINDWOOD DR","Ann Arbor",MI,42.317153,-83.705384,1,range_interpolation,2810,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1532 PINE VALLEY BLV","Ann Arbor",MI,42.250981,-83.724178,0.82,nearest_rooftop_match,1534,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"404 SFirst St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 3L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"511 BENJAMIN ST 2","Ann Arbor",MI,42.271118,-83.742485,1,rooftop,511,"Benjamin St 2",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"303 SDivision St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"654 WAY MARKET DR","Ann Arbor",MI,42.241736,-83.755194,0.9,range_interpolation,654,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"25 RESEARCH DR","Ann Arbor",MI,42.29858,-83.747813,1,range_interpolation,25,"Research Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1950 W LIBERTY ST","Ann Arbor",MI,42.275864,-83.771692,1,range_interpolation,1950,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3200 Nixon Road","Ann Arbor",MI,42.319632,-83.707546,1,range_interpolation,3200,"Nixon Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"601 WAYMARKET DR","Ann Arbor",MI,42.2421,-83.756412,1,range_interpolation,601,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2013 S HURON PKY","Ann Arbor",MI,42.256893,-83.695492,1,range_interpolation,2013,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2726 HIKONE RD","Ann Arbor",MI,42.243203,-83.7142,1,range_interpolation,2726,"Hikone Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2287 Shadowood Dr","Ann Arbor",MI,42.231823,-83.714105,1,range_interpolation,2287,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2809 RATHMORE LN","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1548 JONES DR","Ann Arbor",MI,42.295222,-83.7311,1,range_interpolation,1548,"Jones Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2234 DEXTER AV","Ann Arbor",MI,42.284993,-83.776151,1,rooftop,2234,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1524 PINE VALLEY BLV","Ann Arbor",MI,42.250729,-83.724679,0.82,nearest_rooftop_match,1526,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 11H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 11H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1515 PINE VALLEY BLV","Ann Arbor",MI,42.251274,-83.726077,0.8,nearest_rooftop_match,1507,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 22E","Ann Arbor",MI,42.278,-83.742401,1,rooftop,555,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"632 WSummit St","Ann Arbor",MI,42.289152,-83.755281,0.9,rooftop,632,"W Summit St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 23D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 23D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"540 N MAPLE RD","Ann Arbor",MI,42.285738,-83.780335,1,range_interpolation,540,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"815 S STATE ST","Ann Arbor",MI,42.271758,-83.740484,1,range_interpolation,815,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"112 COLLINGWOOD DR","Ann Arbor",MI,42.279771,-83.778409,1,rooftop,112,"Collingwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1816 STADIUM PL","Ann Arbor",MI,42.267618,-83.770506,1,range_interpolation,1816,"Stadium Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"409 E MADISON ST","Ann Arbor",MI,42.274364,-83.743826,1,rooftop,409,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"215 LAKE VILLAGE DR","Ann Arbor",MI,42.250905,-83.746845,0.9,range_interpolation,215,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"618 WLiberty St","Ann Arbor",MI,42.278715,-83.755692,0.9,rooftop,618,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+CR12-0047,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"538 WAY MARKET DR","Ann Arbor",MI,42.242378,-83.756249,0.9,range_interpolation,538,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"966 NEWPORT RD","Ann Arbor",MI,42.290281,-83.765466,1,range_interpolation,966,"Newport Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1809 WILLOWTREE LN","Ann Arbor",MI,42.299129,-83.717058,1,range_interpolation,1809,"Willowtree Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2980 PACKARD RD","Ann Arbor",MI,42.244846,-83.703113,1,range_interpolation,2980,"Packard Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2407 SANDALWOOD CIR","Ann Arbor",MI,42.305679,-83.708433,1,range_interpolation,2407,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 14B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 14B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1693 BROADWAY ST","Ann Arbor",MI,42.296532,-83.725002,1,range_interpolation,1693,"Broadway St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1835 SHIRLEY LN","Ann Arbor",MI,42.30041,-83.719357,1,range_interpolation,1835,"Shirley Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 7H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 7H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3060 WASHTENAW AVE","Ann Arbor",MI,42.257272,-83.699428,1,range_interpolation,3060,"Washtenaw Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"415 S FIFTH AVE","Ann Arbor",MI,42.277413,-83.745855,1,rooftop,415,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"260 HARBOR WAY","Ann Arbor",MI,42.248178,-83.748492,0.9,range_interpolation,260,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1512 LONG SHORE DR","Ann Arbor",MI,42.296106,-83.740804,1,rooftop,1512,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"637 S MAIN ST","Ann Arbor",MI,42.272962,-83.748709,1,rooftop,637,"S Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2044 PAULINE BLV","Ann Arbor",MI,42.268483,-83.776483,0.62,nearest_rooftop_match,1992,"Pauline Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"115 W LIBERTY ST 3","Ann Arbor",MI,42.279385,-83.749413,1,rooftop,115,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2305 SANDALWOOD CIR","Ann Arbor",MI,42.308196,-83.710344,1,range_interpolation,2305,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1318 WRIGHT ST","Ann Arbor",MI,42.293167,-83.73969,1,range_interpolation,1318,"Wright St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1522 PINE VALLEY BLV","Ann Arbor",MI,42.250288,-83.724912,0.82,nearest_rooftop_match,1520,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1960 W LIBERTY ST","Ann Arbor",MI,42.275598,-83.771807,1,range_interpolation,1960,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1700 GREENVIEW DR","Ann Arbor",MI,42.260109,-83.763789,1,range_interpolation,1700,"Greenview Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2005 MEDFORD RD","Ann Arbor",MI,42.258916,-83.715861,1,range_interpolation,2005,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"350 S FIFTH AV","Ann Arbor",MI,42.278165,-83.74682,1,rooftop,350,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"431 S SEVENTH ST","Ann Arbor",MI,42.27698,-83.75836,1,range_interpolation,431,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"211 S FOURTH AV","Ann Arbor",MI,42.280023,-83.746981,1,rooftop,211,"S 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 26A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 26A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3038 WILLIAMSBURG DR","Ann Arbor",MI,42.234393,-83.695404,0.65,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"3076 WILLIAMSBURG DR","Ann Arbor",MI,42.234996,-83.697662,0.6,range_interpolation,3076,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"411 LONG SHORE DR","Ann Arbor",MI,42.292009,-83.743624,1,rooftop,411,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1630 NMaple Road","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"336 S STATE ST","Ann Arbor",MI,42.283326,-83.7408,1,range_interpolation,336,"N State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2714 HIKONE RD","Ann Arbor",MI,42.244051,-83.714198,1,range_interpolation,2714,"Hikone Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"511 N FIFTH AV","Ann Arbor",MI,42.285242,-83.746288,1,rooftop,511,"N 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2349 SANDALWOOD CIR","Ann Arbor",MI,42.306744,-83.710518,1,range_interpolation,2349,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 18L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 18L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3612 PARTRIDGE PATH","Ann Arbor",MI,42.234105,-83.723524,1,range_interpolation,3612,"Partridge Path",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"524 WLiberty St","Ann Arbor",MI,42.27894,-83.75471,0.9,rooftop,524,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1012 Marra","Ann Arbor",MI,42.271069,-83.741441,0.1,street_center,,"Mary St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"201 HARBOR WAY","Ann Arbor",MI,42.247957,-83.748499,1,range_interpolation,201,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 14I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 14I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"801 E HURON ST","Ann Arbor",MI,42.281377,-83.73964,1,range_interpolation,801,"E Huron St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"808 WWashington St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2428 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2411 PACKARD ST 53E","Ann Arbor",MI,42.253387,-83.724142,1,rooftop,2411,"Packard St 53E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"936 WALL ST 4","Ann Arbor",MI,42.288421,-83.737726,1,rooftop,936,"Wall St 4",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"3029 CHARING CROSS RD","Ann Arbor",MI,42.244857,-83.689297,1,range_interpolation,3029,"Charing Cross Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2314 Shadowood Dr","Ann Arbor",MI,42.232067,-83.713646,1,range_interpolation,2314,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2655 BURTON RD","Ann Arbor",MI,42.24806,-83.685247,1,range_interpolation,2655,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"545 WAYMARKET DR","Ann Arbor",MI,42.242627,-83.757001,1,range_interpolation,545,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"237 HARBOR WAY","Ann Arbor",MI,42.248092,-83.748495,1,range_interpolation,237,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 16I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 16I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2303 SANDALWOOD CIR","Ann Arbor",MI,42.308296,-83.709597,1,range_interpolation,2303,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3760 GREEN BRIER BLVD","Ann Arbor",MI,42.29788,-83.687993,1,rooftop,3760,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3562 GREEN BRIER BLV","Ann Arbor",MI,42.297799,-83.690215,1,rooftop,3562,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"406 W LIBERTY ST","Ann Arbor",MI,42.279664,-83.752994,1,rooftop,406,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"525 SDivision St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2383 SANDALWOOD CIR","Ann Arbor",MI,42.306,-83.70942,1,range_interpolation,2383,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"200 N FOURTH AV","Ann Arbor",MI,42.282582,-83.746848,1,rooftop,200,"N 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 21H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 21H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 19K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 19K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1411 NATALIE LN","Ann Arbor",MI,42.292896,-83.683172,1,range_interpolation,1411,"Natalie Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2775 WINDWOOD DR","Ann Arbor",MI,42.317975,-83.704688,0.9,range_interpolation,2775,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1602 ARBORVIEW BLVD","Ann Arbor",MI,42.286224,-83.767878,1,range_interpolation,1602,"Arborview Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2005 S HURON PKY","Ann Arbor",MI,42.25691,-83.695489,1,range_interpolation,2005,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2725 WINDWOOD DR","Ann Arbor",MI,42.318539,-83.707468,0.9,range_interpolation,2725,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+CR13-0240,"Ann Arbor",MI,42.266638,-83.849042,1,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1718 CALVIN ST","Ann Arbor",MI,42.297391,-83.782156,1,rooftop,1718,"Calvin St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2785 WINDWOOD DR","Ann Arbor",MI,42.318423,-83.703549,0.9,range_interpolation,2785,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3985 Stone School Road","Ann Arbor",MI,42.230176,-83.71942,1,range_interpolation,3985,"Stone School Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"743 N MAPLE RD","Ann Arbor",MI,42.2878,-83.781611,1,rooftop,743,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1050 WALL ST 1C","Ann Arbor",MI,42.287201,-83.73475,1,rooftop,1050,"Wall St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"314 GLENDALE DR","Ann Arbor",MI,42.27989,-83.771295,1,range_interpolation,314,"Glendale Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"245 LAKE VILLAGE DR","Ann Arbor",MI,42.25091,-83.746394,0.9,range_interpolation,245,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"617 E UNIVERSITY AVE","Ann Arbor",MI,42.274094,-83.735612,1,range_interpolation,617,"E University Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3276 WILLIAMSBURG DR","Ann Arbor",MI,42.235571,-83.696118,0.6,range_interpolation,3276,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"533 LONG SHORE DR A","Ann Arbor",MI,42.292231,-83.741226,1,rooftop,533,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1101 MAIDEN LANE CT","Ann Arbor",MI,42.288342,-83.733844,1,rooftop,1101,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1530 PINE VALLEY DR","Ann Arbor",MI,42.250809,-83.724866,0.5,range_interpolation,1530,"Pine Valley Blvd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1805 WILLOWTREE LN","Ann Arbor",MI,42.299092,-83.717048,1,range_interpolation,1805,"Willowtree Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2407 PACKARD ST 45E","Ann Arbor",MI,42.253612,-83.724325,1,rooftop,2407,"Packard St 45E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2094 PAULINE BLV","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1110 LUTZ AVE","Ann Arbor",MI,42.274755,-83.760499,1,range_interpolation,1110,"Lutz Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2954 HUNLEY DR","Ann Arbor",MI,42.314922,-83.731301,1,rooftop,2954,"Hunley Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2000 PAULINE BLVD","Ann Arbor",MI,42.267802,-83.77418,1,range_interpolation,2000,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3139 PROFESSIONAL DR","Ann Arbor",MI,42.255435,-83.697443,1,range_interpolation,3139,"Professional Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1560 PINE VALLEY BLV","Ann Arbor",MI,42.251246,-83.723565,0.78,nearest_rooftop_match,1540,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"723 N MAPLE RD","Ann Arbor",MI,42.287444,-83.780668,1,range_interpolation,723,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 17E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 17E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2247 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1666 BROADWAY ST","Ann Arbor",MI,42.29504,-83.727926,1,range_interpolation,1666,"Broadway St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"551 S FIFTH AVE","Ann Arbor",MI,42.274979,-83.746207,1,range_interpolation,551,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3035 WHISPERWOOD DR","Ann Arbor",MI,42.31678,-83.703149,1,range_interpolation,3035,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"630 KUEHNLE AVE 1","Ann Arbor",MI,42.290491,-83.788395,1,rooftop,630,"Kuehnle Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"555 E WILLIAM ST 18G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 18G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 24G","Ann Arbor",MI,42.277977,-83.742168,1,rooftop,555,"E William St 24G",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"201 E ANN ST","Ann Arbor",MI,42.282473,-83.747186,1,range_interpolation,201,"E Ann St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1204 E UNIVERSITY AVE","Ann Arbor",MI,42.268416,-83.736344,1,range_interpolation,1204,"E University Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1040 ISLAND DR","Ann Arbor",MI,42.287848,-83.732919,1,range_interpolation,1040,"Island Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2327 SANDALWOOD CIR","Ann Arbor",MI,42.307498,-83.71062,1,range_interpolation,2327,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"417 MILLER AVE","Ann Arbor",MI,42.283509,-83.752133,1,range_interpolation,417,"Miller Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2011 S HURON PKY","Ann Arbor",MI,42.256897,-83.695491,1,range_interpolation,2011,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1220 W STADIUM BLV","Ann Arbor",MI,42.264271,-83.761788,0.78,nearest_rooftop_match,1200,"W Stadium Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"811 WHuron St","Ann Arbor",MI,42.330538,-83.739038,0.8,range_interpolation,811,"Warren Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2417 NCircle Dr","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"437 S FIFTH AV","Ann Arbor",MI,42.277269,-83.746055,1,range_interpolation,437,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"625 HIDDEN VALLEY CLUB DR","Ann Arbor",MI,42.246863,-83.739939,1,range_interpolation,625,"Hidden Valley Club Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3453 PLATT RD","Ann Arbor",MI,42.239343,-83.699863,1,range_interpolation,3453,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"316 NThayer St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3082 WILLIAMSBURG DR","Ann Arbor",MI,42.234938,-83.697404,0.6,range_interpolation,3082,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3011 3033 Lakehaven Ct","Ann Arbor",MI,42.286641,-83.698506,1,range_interpolation,3033,"Lakehaven Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"878 BRIARWOOD CIR","Ann Arbor",MI,42.24231,-83.743458,1,range_interpolation,878,"Briarwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"713 N MAPLE RD","Ann Arbor",MI,42.287485,-83.780515,1,range_interpolation,713,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"203 EDENWOOD DR","Ann Arbor",MI,42.251419,-83.747409,1,range_interpolation,203,Edenwood,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2121 MEDFORD RD","Ann Arbor",MI,42.257449,-83.713548,1,range_interpolation,2121,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"508 WAY MARKET DR","Ann Arbor",MI,42.242604,-83.75652,0.9,range_interpolation,508,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 25L","Ann Arbor",MI,42.277973,-83.742535,1,rooftop,555,"E William St 25L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1500 PAULINE BLVD B","Ann Arbor",MI,42.268485,-83.76546,1,rooftop,1500,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"804 S STATE ST","Ann Arbor",MI,42.235127,-83.744667,1,range_interpolation,804,"State Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1119 MAIDEN LA","Ann Arbor",MI,42.287877,-83.733393,1,range_interpolation,1119,"Maiden Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"527 ELiberty St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 11B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 11B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"429 S SEVENTH ST","Ann Arbor",MI,42.27701,-83.758361,1,range_interpolation,429,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"420 PARKWOOD ST","Ann Arbor",MI,42.287789,-83.790842,1,rooftop,420,"Parkwood St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2710 WINDWOOD DR","Ann Arbor",MI,42.318544,-83.707593,1,range_interpolation,2710,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3615 GREEN BRIER BLV","Ann Arbor",MI,42.298729,-83.689313,1,rooftop,3615,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"576 582 Kellogg St","Ann Arbor",MI,42.292955,-83.740712,1,rooftop,582,"Kellogg St A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2316 SHADOWOOD DR","Ann Arbor",MI,42.232086,-83.713643,1,range_interpolation,2316,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1030 PENNSYLVANIA AVE","Ann Arbor",MI,42.269029,-83.779554,1,range_interpolation,1030,"Pennsylvania Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"420 W JEFFERSON ST","Ann Arbor",MI,42.276169,-83.752465,1,range_interpolation,420,"W Jefferson St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 6K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 6K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2009 S HURON PKY","Ann Arbor",MI,42.256902,-83.695491,1,range_interpolation,2009,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2853 BURTON RD","Ann Arbor",MI,42.245923,-83.685154,1,range_interpolation,2853,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 16C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 16C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"521 S MAIN ST","Ann Arbor",MI,42.27625,-83.748596,1,range_interpolation,521,"S Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 25F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 25F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1030 ARBORDALE ST","Ann Arbor",MI,42.268425,-83.767344,0.78,nearest_rooftop_match,1010,"Arbordale St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1474 W LIBERTY ST","Ann Arbor",MI,42.276378,-83.766784,1,range_interpolation,1474,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1500 PAULINE BLVD D","Ann Arbor",MI,42.268485,-83.76546,1,rooftop,1500,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"263 LYNDEN GLEN DR","Ann Arbor",MI,42.252297,-83.746118,1,range_interpolation,263,"Lynden Glen Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1721 PAULINE BLVD","Ann Arbor",MI,42.267908,-83.768906,1,range_interpolation,1721,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3027 WILLIAMSBURG DR","Ann Arbor",MI,42.234393,-83.695404,0.77,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"555 E WILLIAM ST 6E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 6E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 22J","Ann Arbor",MI,42.278,-83.742401,1,rooftop,555,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2020 CRESTLAND DR","Ann Arbor",MI,42.256014,-83.72048,1,range_interpolation,2020,"Crestland Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"437 SECOND ST","Ann Arbor",MI,42.276783,-83.752063,1,rooftop,437,"2nd St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2392 JONATHAN CT","Ann Arbor",MI,42.230184,-83.710446,1,range_interpolation,2392,"Jonathan Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1113 S UNIVERSITY AVE","Ann Arbor",MI,42.275138,-83.735664,1,range_interpolation,1113,"S University Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2341 SANDALWOOD CIR","Ann Arbor",MI,42.307053,-83.710613,1,range_interpolation,2341,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3002 WOLVERINE DR","Ann Arbor",MI,42.236391,-83.6999,1,range_interpolation,3002,"Wolverine Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1711 BROADVIEW LN","Ann Arbor",MI,42.299016,-83.725242,1,range_interpolation,1711,"Broadview Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"415 S FIFTH AV","Ann Arbor",MI,42.277413,-83.745855,1,rooftop,415,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1582 W LIBERTY ST","Ann Arbor",MI,42.276137,-83.767857,1,range_interpolation,1582,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3535 GREEN BRIER BLVD","Ann Arbor",MI,42.299072,-83.69137,1,rooftop,3535,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1207 ROOSEVELT AVE","Ann Arbor",MI,42.269307,-83.733848,1,rooftop,1207,"Roosevelt Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"1105 NORMAN PL","Ann Arbor",MI,42.267921,-83.769287,1,range_interpolation,1105,"Norman Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 3C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2301 LESLIE CIR","Ann Arbor",MI,42.309139,-83.714705,1,range_interpolation,2301,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"319 N MAIN ST","Ann Arbor",MI,42.283936,-83.748659,1,rooftop,319,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 3D","Ann Arbor",MI,42.278,-83.742401,1,rooftop,555,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"650 HIDDEN VALLEY CLUB DR","Ann Arbor",MI,42.246235,-83.741953,1,range_interpolation,650,"Hidden Valley Club Dr",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 25A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 25A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"543 LONG SHORE DR B","Ann Arbor",MI,42.291422,-83.741051,1,rooftop,543,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"1108 LUTZ AVE","Ann Arbor",MI,42.274755,-83.760484,1,range_interpolation,1108,"Lutz Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 15H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 15H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1110 MAIDEN LANE CT","Ann Arbor",MI,42.288749,-83.732458,1,rooftop,1110,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 8K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 8K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"724 N MAIN ST","Ann Arbor",MI,42.287662,-83.747659,1,range_interpolation,724,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"700 ARBOR ST","Ann Arbor",MI,42.270826,-83.740644,1,range_interpolation,700,"Arbor St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2338 Shadowood Dr","Ann Arbor",MI,42.232263,-83.71359,1,range_interpolation,2338,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3025 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.77,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"1801 WILLOWTREE LN","Ann Arbor",MI,42.299246,-83.716893,1,range_interpolation,1801,"Willowtree Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"180 LAKE VILLAGE DR","Ann Arbor",MI,42.250899,-83.747189,1,range_interpolation,180,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2401 PACKARD ST 31D","Ann Arbor",MI,42.253756,-83.723953,1,rooftop,2401,"Packard St 31D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1925 DEXTER AVE","Ann Arbor",MI,42.283203,-83.771998,1,range_interpolation,1925,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1058 ISLAND DR","Ann Arbor",MI,42.287995,-83.732654,1,range_interpolation,1058,"Island Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"703 N MAPLE RD","Ann Arbor",MI,42.286925,-83.780646,1,range_interpolation,703,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"514 W JEFFERSON ST","Ann Arbor",MI,42.276168,-83.754241,1,rooftop,514,"W Jefferson St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"210 LAKE VILLAGE DR","Ann Arbor",MI,42.250904,-83.746894,1,range_interpolation,210,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"600 E WASHINGTON ST","Ann Arbor",MI,42.280065,-83.741891,1,rooftop,600,"E Washington St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1920 W LIBERTY ST","Ann Arbor",MI,42.275319,-83.77215,1,range_interpolation,1920,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2003 S HURON PKY","Ann Arbor",MI,42.256915,-83.695489,1,range_interpolation,2003,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"419 NAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 10K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 10K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 18D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 18D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1524 SAUNDERS CRS","Ann Arbor",MI,42.295215,-83.77101,1,rooftop,1524,"Saunders Crs",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2011 MEDFORD RD","Ann Arbor",MI,42.257881,-83.714546,1,range_interpolation,2011,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"251 S SEVENTH ST","Ann Arbor",MI,42.279729,-83.758224,1,rooftop,251,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1500 PAULINE BLVD F","Ann Arbor",MI,42.268485,-83.76546,1,rooftop,1500,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2031 MEDFORD RD","Ann Arbor",MI,42.257781,-83.714509,1,range_interpolation,2031,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2007 S HURON PKY","Ann Arbor",MI,42.256906,-83.69549,1,range_interpolation,2007,"S Huron Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"433 S FIFTH AV","Ann Arbor",MI,42.277336,-83.746053,1,range_interpolation,433,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2154 S STATE ST","Ann Arbor",MI,42.255632,-83.739859,1,range_interpolation,2154,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 9E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 9E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 17L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 17L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2307 SANDALWOOD CIR","Ann Arbor",MI,42.306111,-83.707664,1,range_interpolation,2307,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2001 MEDFORD RD","Ann Arbor",MI,42.259389,-83.716673,1,range_interpolation,2001,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"690 WAY MARKET DR","Ann Arbor",MI,42.241705,-83.754747,0.9,range_interpolation,690,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2440 LESLIE CIR","Ann Arbor",MI,42.308897,-83.713057,1,range_interpolation,2440,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 10L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 10L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2712 BEACON HILL ST","Ann Arbor",MI,42.251066,-83.704966,1,rooftop,2712,"Beacon Hill St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2343 JONATHAN CT","Ann Arbor",MI,42.23125,-83.710164,1,range_interpolation,2343,"Jonathan Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3005 WHISPERWOOD DR","Ann Arbor",MI,42.318347,-83.703264,1,range_interpolation,3005,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"708 N MAIN ST","Ann Arbor",MI,42.287498,-83.747711,1,range_interpolation,708,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"860 S MAPLE RD","Ann Arbor",MI,42.271494,-83.780126,1,range_interpolation,860,"S Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1807 INDEPENDENCE BLV 13B","Ann Arbor",MI,42.253283,-83.723267,1,rooftop,1807,"Independence Blv 13B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 12C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 12C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2325 JONATHAN CT","Ann Arbor",MI,42.231561,-83.710851,1,range_interpolation,2325,"Jonathan Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"185 LAKE VILLAGE DR 101","Ann Arbor",MI,42.2509,-83.747138,0.9,range_interpolation,185,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"317 NSeventh St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2727 BEACON HILL ST","Ann Arbor",MI,42.251216,-83.70408,1,rooftop,2727,"Beacon Hill St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"343 S WAGNER RD","Ann Arbor",MI,42.280074,-83.799207,1,range_interpolation,343,"S Wagner Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1561 PINE VALLEY BLV","Ann Arbor",MI,42.251812,-83.724064,0.78,nearest_rooftop_match,1541,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 20E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 20E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2034 PAULINE BLVD","Ann Arbor",MI,42.268079,-83.774491,1,range_interpolation,2034,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3512 GREEN BRIER BLV","Ann Arbor",MI,42.298018,-83.692021,1,rooftop,3512,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"501 WAYMARKET DR","Ann Arbor",MI,42.243144,-83.757342,1,range_interpolation,501,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2272 Shadowood Dr","Ann Arbor",MI,42.232029,-83.71438,1,range_interpolation,2272,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3148 CHERRY TREE LA","Ann Arbor",MI,42.243133,-83.686254,1,rooftop,3148,"Cherry Tree Ln",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"3067 Williamsburg Dr","Ann Arbor",MI,42.235088,-83.697404,0.6,range_interpolation,3067,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3161 LAKEHAVEN DR","Ann Arbor",MI,42.285973,-83.696063,1,rooftop,3161,Lakehaven,,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1422 WLiberty St","Ann Arbor",MI,42.276843,-83.765496,0.9,rooftop,1422,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"611 E WILLIAM ST","Ann Arbor",MI,42.278056,-83.741449,1,rooftop,611,"E William St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2014 MEDFORD RD","Ann Arbor",MI,42.258918,-83.716437,1,range_interpolation,2014,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2286 Hardyke Ct","Ann Arbor",MI,42.232123,-83.714089,1,range_interpolation,2286,"Hardyke Ct",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2368 ABBOTT AV","Ann Arbor",MI,42.279679,-83.779253,1,range_interpolation,2368,"Abbott Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1320 W STADIUM BLV","Ann Arbor",MI,42.264238,-83.762963,0.78,nearest_rooftop_match,1300,"W Stadium Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"511 LONG SHORE DR B","Ann Arbor",MI,42.291584,-83.741621,1,rooftop,511,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2805 WINDWOOD DR","Ann Arbor",MI,42.316914,-83.706594,1,range_interpolation,2805,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2027 MEDFORD RD","Ann Arbor",MI,42.258427,-83.714795,1,range_interpolation,2027,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2471 LANCASHIRE DR","Ann Arbor",MI,42.310284,-83.712722,1,range_interpolation,2471,"Lancashire Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2441 LAURELWOOD CIR","Ann Arbor",MI,42.23263,-83.712289,1,range_interpolation,2441,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3000 N SPURWAY DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"851 MT PLEASANT AVE","Ann Arbor",MI,42.270183,-83.760469,1,rooftop,851,"Mt Pleasant Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"3217 PINEBLUFF CT","Ann Arbor",MI,42.322549,-83.716312,1,rooftop,3217,"Pinebluff Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1020 ARBORDALE ST","Ann Arbor",MI,42.268425,-83.767344,0.8,nearest_rooftop_match,1010,"Arbordale St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1028 WELLINGTON CT","Ann Arbor",MI,42.269574,-83.732426,1,range_interpolation,1028,"Wellington Ct",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"209 N FOURTH AV","Ann Arbor",MI,42.282733,-83.747438,1,rooftop,209,"N 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"207 N DIVISION ST","Ann Arbor",MI,42.282357,-83.743903,1,range_interpolation,207,"N Division St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"217 EWashington St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2489 SANDALWOOD CIR","Ann Arbor",MI,42.308266,-83.708338,1,range_interpolation,2489,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2214 Shadowood Dr","Ann Arbor",MI,42.232138,-83.714357,1,range_interpolation,2214,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"701 N MAPLE RD","Ann Arbor",MI,42.287288,-83.781016,1,rooftop,701,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"711 PACKARD ST","Ann Arbor",MI,42.270908,-83.740409,1,range_interpolation,711,"Packard St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2341 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2008 PAULINE BLV","Ann Arbor",MI,42.268483,-83.776483,0.79,nearest_rooftop_match,1992,"Pauline Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"717 N MAPLE RD","Ann Arbor",MI,42.287376,-83.780666,1,range_interpolation,717,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 10D","Ann Arbor",MI,42.278062,-83.742333,1,rooftop,555,"E William St 10D",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1107 MAIDEN LANE CT","Ann Arbor",MI,42.288783,-83.733418,1,rooftop,1107,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2324 LESLIE CIR","Ann Arbor",MI,42.309066,-83.714269,1,range_interpolation,2324,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1331 WASHTENAW AVE","Ann Arbor",MI,42.275905,-83.731931,1,rooftop,1331,"Washtenaw Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3625 GREEN BRIER BLVD","Ann Arbor",MI,42.298986,-83.690046,1,rooftop,3625,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3000 WHISPERWOOD DR","Ann Arbor",MI,42.318906,-83.70201,1,range_interpolation,3000,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 24E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 24E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1525 SAUNDERS CRS","Ann Arbor",MI,42.295383,-83.771536,1,rooftop,1525,"Saunders Crs",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"3505 GREEN BRIAR BLV","Ann Arbor",MI,42.299068,-83.69011,1,rooftop,3505,"Greenbrier Blv",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"1013 WOODBRIDGE BLVD","Ann Arbor",MI,42.276388,-83.761419,1,range_interpolation,1013,"Woodbridge Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1006 SMain St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"511 S FIRST ST","Ann Arbor",MI,42.275773,-83.750732,1,rooftop,511,"S 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"904 S MAIN ST","Ann Arbor",MI,42.270065,-83.750499,1,rooftop,904,"S Main St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2227 Shadowood Dr","Ann Arbor",MI,42.231813,-83.713907,1,range_interpolation,2227,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"3080 WHISPERWOOD DR","Ann Arbor",MI,42.31781,-83.703039,1,range_interpolation,3080,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 5A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 5A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"726 S STATE ST","Ann Arbor",MI,42.234843,-83.743191,1,range_interpolation,726,"State Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"522 W STADIUM BLVD","Ann Arbor",MI,42.264327,-83.753937,1,rooftop,522,"W Stadium Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"215 W LIBERTY ST","Ann Arbor",MI,42.279486,-83.749946,1,range_interpolation,215,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"120 N FOURTH AV","Ann Arbor",MI,42.28216,-83.746915,1,rooftop,120,"N 4th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3029 LAKEHAVEN CT","Ann Arbor",MI,42.286645,-83.698467,1,range_interpolation,3029,"Lakehaven Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1020 ISLAND DRIVE CT","Ann Arbor",MI,42.29073,-83.731619,1,rooftop,1020,"Island Drive Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 17H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 17H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2225 S STATE ST","Ann Arbor",MI,42.255175,-83.739523,1,range_interpolation,2225,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1139 MICHIGAN AVE","Ann Arbor",MI,42.267019,-83.734753,1,range_interpolation,1139,"Michigan Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2407 Laurelwood Cir","Ann Arbor",MI,42.232948,-83.71291,1,range_interpolation,2407,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2317 PACKARD ST B #104","Ann Arbor",MI,42.254073,-83.724072,1,rooftop,2317,"Packard St B104",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2340 SHADOWOOD DR","Ann Arbor",MI,42.232281,-83.713584,1,range_interpolation,2340,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1113 MAIDEN LANE CT","Ann Arbor",MI,42.289205,-83.733048,1,rooftop,1113,"Maiden Lane Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"3152 CHERRY TREE LA","Ann Arbor",MI,42.243,-83.686257,1,rooftop,3152,"Cherry Tree Ln",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"219 HARBOR WAY","Ann Arbor",MI,42.248024,-83.748497,1,range_interpolation,219,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"600 WAY MARKET DR","Ann Arbor",MI,42.241943,-83.755767,0.9,range_interpolation,600,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"939 DEWEY AVE","Ann Arbor",MI,42.266055,-83.737209,1,range_interpolation,939,"Dewey Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2474 Laurelwood Cir","Ann Arbor",MI,42.232794,-83.711425,1,range_interpolation,2474,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"470 WAY MARKET DR","Ann Arbor",MI,42.242887,-83.756821,0.9,range_interpolation,470,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2651 BURTON RD","Ann Arbor",MI,42.248104,-83.685249,1,range_interpolation,2651,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2837 BURTON RD","Ann Arbor",MI,42.246095,-83.68516,1,range_interpolation,2837,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2581 BURTON RD","Ann Arbor",MI,42.248859,-83.685273,1,range_interpolation,2581,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"523 LONG SHORE DR B","Ann Arbor",MI,42.291775,-83.741329,1,rooftop,523,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2429 SANDALWOOD CIR","Ann Arbor",MI,42.308162,-83.707684,1,range_interpolation,2429,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3168 Williamsburg Dr","Ann Arbor",MI,42.235041,-83.696432,0.6,range_interpolation,3168,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 11J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 11J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2329 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"885 WICKFIELD CT","Ann Arbor",MI,42.302353,-83.73228,1,rooftop,885,"Wickfield Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"911 BROWN ST","Ann Arbor",MI,42.270235,-83.7485,1,range_interpolation,911,"Brown St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"408 WAY MARKET DR","Ann Arbor",MI,42.243364,-83.757119,0.9,range_interpolation,408,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"110 KENWOOD AVE","Ann Arbor",MI,42.281746,-83.766802,1,range_interpolation,110,"Kenwood Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"423 S SEVENTH ST","Ann Arbor",MI,42.277099,-83.758363,1,range_interpolation,423,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"738 WAY MARKET DR","Ann Arbor",MI,42.241717,-83.754186,0.9,range_interpolation,738,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1531 PACKARD ST 4","Ann Arbor",MI,42.262865,-83.731488,1,rooftop,1531,"Packard St 4",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3003 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.82,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"3075 WHISPERWOOD DR","Ann Arbor",MI,42.317757,-83.703335,1,range_interpolation,3075,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2404 LESLIE CIR","Ann Arbor",MI,42.30908,-83.713103,1,range_interpolation,2404,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1741 BROADVIEW LN","Ann Arbor",MI,42.298696,-83.723969,1,range_interpolation,1741,"Broadview Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"802 WWashington St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2222 FULLER CT","Ann Arbor",MI,42.286435,-83.718011,1,range_interpolation,2222,"Fuller Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1000 W HURON ST C","Ann Arbor",MI,42.282016,-83.759928,1,rooftop,1000,"W Huron St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 9K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 9K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"731 N MAPLE RD","Ann Arbor",MI,42.287535,-83.780671,1,range_interpolation,731,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2008 MEDFORD RD","Ann Arbor",MI,42.259001,-83.716572,1,range_interpolation,2008,"Medford Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1411 TRAVER ST","Ann Arbor",MI,42.294292,-83.73624,1,range_interpolation,1411,"Traver St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"943 MAIDEN LN","Ann Arbor",MI,42.289213,-83.736321,1,rooftop,943,"Maiden Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2730 WINDWOOD DR","Ann Arbor",MI,42.318538,-83.707427,1,range_interpolation,2730,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1214 WLiberty St","Ann Arbor",MI,42.277069,-83.76382,0.9,rooftop,1214,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"2355 LANCASHIRE DR","Ann Arbor",MI,42.309966,-83.71576,1,range_interpolation,2355,"Lancashire Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 19J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 19J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"117 HARBOR WAY","Ann Arbor",MI,42.247642,-83.748508,1,range_interpolation,117,"Harbor Way",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2441 LANCASHIRE DR","Ann Arbor",MI,42.310147,-83.713529,1,range_interpolation,2441,"Lancashire Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3039 LAKEHAVEN CT","Ann Arbor",MI,42.286635,-83.698565,1,range_interpolation,3039,"Lakehaven Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"305 LAKE VILLAGE DR","Ann Arbor",MI,42.251213,-83.746211,1,range_interpolation,305,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3279 PLATT RD","Ann Arbor",MI,42.241311,-83.699881,1,range_interpolation,3279,"Platt Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 4I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 4I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3019 Williamsburg Dr","Ann Arbor",MI,42.234393,-83.695404,0.78,nearest_rooftop_match,3001,"Williamsburg Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"705 N MAPLE RD","Ann Arbor",MI,42.287027,-83.780649,1,range_interpolation,705,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 2L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 2L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"441 WAYMARKET DR","Ann Arbor",MI,42.243883,-83.757488,1,range_interpolation,441,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1801 Independence Blvd 1","Ann Arbor",MI,42.253164,-83.723828,1,rooftop,1801,"Independence Blvd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1265 SMaple Road","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"621 S FOREST AV","Ann Arbor",MI,42.274795,-83.732928,1,range_interpolation,621,"S Forest Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2825 WINDWOOD DR","Ann Arbor",MI,42.317461,-83.705332,1,range_interpolation,2825,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1843 LAKE LILA DR","Ann Arbor",MI,42.299441,-83.717147,1,range_interpolation,1843,"Lake Lila Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2523 PACKARD ST P","Ann Arbor",MI,42.250438,-83.722182,1,range_interpolation,2523,"Packard St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"133 EDENWOOD DR","Ann Arbor",MI,42.251407,-83.746541,1,range_interpolation,133,Edenwood,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2285 Shadowood Dr","Ann Arbor",MI,42.231823,-83.714098,1,range_interpolation,2285,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"703 N FIFTH AV","Ann Arbor",MI,42.286947,-83.745722,1,rooftop,703,"N 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"337.5 THIRD ST","Ann Arbor",MI,42.278489,-83.753313,1,rooftop,337,"3rd St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"403 S DIVISION ST","Ann Arbor",MI,42.277783,-83.743956,1,range_interpolation,403,"S Division St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3065 Williamsburg Dr","Ann Arbor",MI,42.235249,-83.697425,0.6,range_interpolation,3065,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2275 Shadowood Dr","Ann Arbor",MI,42.231821,-83.714065,1,range_interpolation,2275,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2367 SANDALWOOD CIR","Ann Arbor",MI,42.306307,-83.709986,1,range_interpolation,2367,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"319 EWilliam St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"525 531 Long Shore Dr","Ann Arbor",MI,42.291978,-83.741229,1,rooftop,531,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2415 SANDALWOOD CIR","Ann Arbor",MI,42.305756,-83.708119,1,range_interpolation,2415,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"102 Longman La","Ann Arbor",MI,42.281277,-83.775751,1,rooftop,102,"Longman Ln",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 23C","Ann Arbor",MI,42.278061,-83.742415,1,rooftop,555,"E William St 23C",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"3 PARK VIEW PL","Ann Arbor",MI,42.282609,-83.754671,0.82,nearest_rooftop_match,5,"Park View Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"3072 TURNBERRY LA","Ann Arbor",MI,42.241804,-83.687505,1,rooftop,3072,"Turnberry Ln",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"2377 SANDALWOOD CIR","Ann Arbor",MI,42.306116,-83.709739,1,range_interpolation,2377,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2735 WINDWOOD DR","Ann Arbor",MI,42.318536,-83.707385,0.9,range_interpolation,2735,"Windwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"824 MCKINLEY AVE","Ann Arbor",MI,42.267618,-83.737765,0.82,nearest_rooftop_match,826,"McKinley Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 8E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 8E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1737 GREEN RD","Ann Arbor",MI,42.298888,-83.692695,1,range_interpolation,1737,"Green Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2824 RIDINGTON RD","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2563 SANDALWOOD CIR","Ann Arbor",MI,42.30861,-83.709478,1,range_interpolation,2563,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2423 SANDALWOOD CIR","Ann Arbor",MI,42.305806,-83.707776,1,range_interpolation,2423,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 12F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 12F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 4H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 4H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1414 SAUNDERS CRS","Ann Arbor",MI,42.294008,-83.77102,1,rooftop,1414,"Saunders Crs",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"555 E WILLIAM ST 16J","Ann Arbor",MI,42.277974,-83.742413,1,rooftop,555,"E William St 16J",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2330 Shadowood Dr","Ann Arbor",MI,42.232192,-83.713613,1,range_interpolation,2330,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2495 LAURELWOOD CIR","Ann Arbor",MI,42.233266,-83.711622,1,range_interpolation,2495,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"417 WWilliam St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"912 S FOREST AV","Ann Arbor",MI,42.271127,-83.733301,1,range_interpolation,912,"S Forest Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1230 FAIR OAKS PKY","Ann Arbor",MI,42.265691,-83.724959,1,rooftop,1230,"Fair Oaks Pkwy",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2342 Shadowood Dr","Ann Arbor",MI,42.232299,-83.713578,1,range_interpolation,2342,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"110 W KINGSLEY ST","Ann Arbor",MI,42.28507,-83.748667,1,range_interpolation,110,"W Kingsley St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"315 N STATE ST","Ann Arbor",MI,42.283463,-83.74126,1,rooftop,315,"N State St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"437 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1725 GREEN RD","Ann Arbor",MI,42.298761,-83.692543,1,range_interpolation,1725,"Green Rd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"220 NFifth Ave","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3K","Ann Arbor",MI,42.277973,-83.742494,1,rooftop,555,"E William St 3K",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"555 E WILLIAM ST 15F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 15F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"859 WICKFIELD CT","Ann Arbor",MI,42.302189,-83.733261,1,rooftop,859,"Wickfield Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1528 PINE VALLEY BLV","Ann Arbor",MI,42.250729,-83.724679,0.82,nearest_rooftop_match,1526,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"539 LONG SHORE DR","Ann Arbor",MI,42.292272,-83.741146,1,rooftop,539,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2808 BEACON HILL ST","Ann Arbor",MI,42.250745,-83.703129,1,rooftop,2808,"Beacon Hill St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2325 LESLIE CIR","Ann Arbor",MI,42.309363,-83.714313,1,range_interpolation,2325,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1120 W STADIUM BLV","Ann Arbor",MI,42.264304,-83.760617,0.78,nearest_rooftop_match,1100,"W Stadium Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"303 E MADISON ST","Ann Arbor",MI,42.274326,-83.746176,1,rooftop,303,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2 PARK VIEW PL","Ann Arbor",MI,42.282159,-83.754219,1,rooftop,2,"Park View Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"337 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"722 N MAIN ST","Ann Arbor",MI,42.287642,-83.747665,1,range_interpolation,722,"N Main St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"212 PINE RIDGE ST","Ann Arbor",MI,42.283083,-83.767785,1,rooftop,212,"Pine Ridge St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"436 SMain St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3015 WHISPERWOOD DR","Ann Arbor",MI,42.317785,-83.703338,1,range_interpolation,3015,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2702 HIKONE RD","Ann Arbor",MI,42.244472,-83.713781,1,range_interpolation,2702,"Hikone Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 12E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 12E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"410 KELLOGG ST","Ann Arbor",MI,42.293179,-83.74148,1,range_interpolation,410,"Kellogg St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"430 KELLOGG ST","Ann Arbor",MI,42.293146,-83.741366,1,range_interpolation,430,"Kellogg St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1940 W LIBERTY ST","Ann Arbor",MI,42.276158,-83.771662,1,range_interpolation,1940,"W Liberty St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3575 GREEN BRIER BLVD","Ann Arbor",MI,42.299064,-83.690762,1,rooftop,3575,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2735 PONTIAC TRL","Ann Arbor",MI,42.31231,-83.735403,1,rooftop,2735,"Pontiac Trl",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 16E","Ann Arbor",MI,42.278063,-83.742251,1,rooftop,555,"E William St 16E",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1021 VAUGHN ST","Ann Arbor",MI,42.269133,-83.736808,1,range_interpolation,1021,"Vaughn St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2009 TIBBITTS CT","Ann Arbor",MI,42.302742,-83.732394,1,rooftop,2009,"Tibbitts Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"338 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"531 LONG SHORE DR A","Ann Arbor",MI,42.291978,-83.741229,1,rooftop,531,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"2345 Shadowood Dr","Ann Arbor",MI,42.233104,-83.713184,1,range_interpolation,2345,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"125 LAKE VILLAGE DR","Ann Arbor",MI,42.250349,-83.748814,0.9,range_interpolation,125,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1116 NORMAN PL","Ann Arbor",MI,42.267613,-83.769265,0.9,range_interpolation,1116,"Norman Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"719 N MAPLE RD","Ann Arbor",MI,42.287399,-83.780667,1,range_interpolation,719,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"1856 STADIUM PL","Ann Arbor",MI,42.267223,-83.769895,0.79,nearest_rooftop_match,1840,"Stadium Pl",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"215 E MADISON ST","Ann Arbor",MI,42.274261,-83.746953,1,rooftop,215,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1050 WALL ST 4E","Ann Arbor",MI,42.287201,-83.73475,1,rooftop,1050,"Wall St",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"555 E WILLIAM ST 3B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 3B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"433 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"415 SAshley St","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"541 547 Long Shore Dr","Ann Arbor",MI,42.29143,-83.740895,1,rooftop,547,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"1113 MICHIGAN AVE","Ann Arbor",MI,42.267297,-83.734816,1,rooftop,1113,"Michigan Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3085 WHISPERWOOD DR","Ann Arbor",MI,42.316846,-83.70315,1,range_interpolation,3085,"Whisperwood Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"3540 GREEN BRIER BLV","Ann Arbor",MI,42.297822,-83.69116,1,rooftop,3540,"Greenbrier Blvd",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"1536 PINE VALLEY BLV","Ann Arbor",MI,42.250981,-83.724178,0.82,nearest_rooftop_match,1534,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2491 LAURELWOOD CIR","Ann Arbor",MI,42.23318,-83.711632,1,range_interpolation,2491,"Laurelwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1612 GREENVIEW DR","Ann Arbor",MI,42.261323,-83.763967,1,range_interpolation,1612,"Greenview Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"240 LAKE VILLAGE DR","Ann Arbor",MI,42.250909,-83.746425,1,range_interpolation,240,"Lake Village Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2424 LESLIE CIR","Ann Arbor",MI,42.309046,-83.713067,1,range_interpolation,2424,"Leslie Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2190 W STADIUM BLVD","Ann Arbor",MI,42.274135,-83.776359,1,range_interpolation,2190,"W Stadium Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2240 S STATE ST","Ann Arbor",MI,42.253293,-83.742185,1,rooftop,2240,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"1072 ISLAND DR","Ann Arbor",MI,42.288107,-83.732557,1,range_interpolation,1072,"Island Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"311 S FIFTH AVE","Ann Arbor",MI,42.2791,-83.7459,1,rooftop,311,"S 5th Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"3052 Nordman Road","Ann Arbor",MI,42.244642,-83.70389,1,range_interpolation,3052,"Nordman Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2443 SANDALWOOD CIR","Ann Arbor",MI,42.308162,-83.707709,1,range_interpolation,2443,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 9A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 9A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"200 HURON VIEW BLV","Ann Arbor",MI,42.298948,-83.747724,1,rooftop,200,"Huron View Blv",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"826 MT PLEASANT AV","Ann Arbor",MI,42.270888,-83.761303,1,rooftop,826,"Mt Pleasant Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"555 E WILLIAM ST 20L","Ann Arbor",MI,42.277972,-83.742576,1,rooftop,555,"E William St 20L",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"739 N MAPLE RD","Ann Arbor",MI,42.287627,-83.780674,1,range_interpolation,739,"N Maple Rd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2246 DEXTER AV","Ann Arbor",MI,42.285749,-83.776142,1,rooftop,2246,"Dexter Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"1548 PINE VALLEY BLV","Ann Arbor",MI,42.251246,-83.723565,0.8,nearest_rooftop_match,1540,"Pine Valley Blv",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2459 SANDALWOOD CIR","Ann Arbor",MI,42.308166,-83.707932,1,range_interpolation,2459,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"2311 SANDALWOOD CIR","Ann Arbor",MI,42.308038,-83.710506,1,range_interpolation,2311,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"905 S FOREST AVE","Ann Arbor",MI,42.271283,-83.732824,1,rooftop,905,"S Forest Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"555 E WILLIAM ST 4B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 4B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2765 BURTON RD","Ann Arbor",MI,42.246873,-83.68521,1,range_interpolation,2765,"Burton Rd",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"320 E MADISON ST","Ann Arbor",MI,42.273996,-83.745773,1,range_interpolation,320,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"2293 SHADOWWOOD DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3510 PHEASANT RUN CIR","Ann Arbor",MI,42.235172,-83.721785,1,range_interpolation,3510,"Pheasant Run Cir",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"2701 S SPURWAY DR","Ann Arbor",MI,42.266638,-83.849042,0.33,place,,,,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 18H","Ann Arbor",MI,42.277976,-83.74225,1,rooftop,555,"E William St 18H",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"438 WAY MARKET DR","Ann Arbor",MI,42.243121,-83.757003,0.9,range_interpolation,438,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 11I","Ann Arbor",MI,42.277975,-83.742331,1,rooftop,555,"E William St 11I",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"568 WAY MARKET DR","Ann Arbor",MI,42.242161,-83.756022,0.9,range_interpolation,568,"Waymarket Dr",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 3F","Ann Arbor",MI,42.278064,-83.74217,1,rooftop,555,"E William St 3F",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"2804 BEACON HILL ST","Ann Arbor",MI,42.250742,-83.703362,1,rooftop,2804,"Beacon Hill St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"2309 SHELBY AVE","Ann Arbor",MI,42.278652,-83.778207,1,range_interpolation,2309,"Shelby Ave",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"2363 SANDALWOOD CIR","Ann Arbor",MI,42.306384,-83.710085,1,range_interpolation,2363,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1606 LONG SHORE DR","Ann Arbor",MI,42.297411,-83.739706,1,rooftop,1606,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"231 S SEVENTH ST","Ann Arbor",MI,42.280023,-83.758112,1,rooftop,231,"S 7th St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"121 E HOOVER AV","Ann Arbor",MI,42.269553,-83.749156,1,rooftop,121,"E Hoover Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"1839 SHIRLEY LN","Ann Arbor",MI,42.30051,-83.71936,1,range_interpolation,1839,"Shirley Ln",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"1407 MORTON AVE","Ann Arbor",MI,42.262534,-83.731364,1,range_interpolation,1407,"Morton Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"419 LONG SHORE DR","Ann Arbor",MI,42.291601,-83.741782,1,rooftop,419,"Long Shore Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"2433 SANDALWOOD CIR","Ann Arbor",MI,42.307896,-83.710344,1,range_interpolation,2433,"Sandalwood Cir",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
+"555 E WILLIAM ST 6A","Ann Arbor",MI,42.278059,-83.742578,1,rooftop,555,"E William St 6A",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"535 LONG SHORE DR A","Ann Arbor",MI,42.292263,-83.741302,1,rooftop,535,"Long Shore Dr A",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Washtenaw
+"869 WICKFIELD CT","Ann Arbor",MI,42.302202,-83.732886,1,rooftop,869,"Wickfield Ct",,,"Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+"214 N FIRST ST","Ann Arbor",MI,42.282965,-83.750532,1,rooftop,214,"N 1st St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Washtenaw
+"502 E MADISON ST","Ann Arbor",MI,42.273931,-83.742825,1,rooftop,502,"E Madison St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Semcog
+"555 E WILLIAM ST 19B","Ann Arbor",MI,42.27806,-83.742496,1,rooftop,555,"E William St 19B",,,"Ann Arbor",MI,"Washtenaw County",48104,US,Washtenaw
+"1104 CATHERINE ST","Ann Arbor",MI,42.283031,-83.735023,1,range_interpolation,1104,"Catherine St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"3965 S STATE ST","Ann Arbor",MI,42.229662,-83.738063,1,rooftop,3965,"S State St",,,"Ann Arbor",MI,"Washtenaw County",48108,US,Semcog
+"2323 SHADOWOOD DR","Ann Arbor",MI,42.232642,-83.713732,1,range_interpolation,2323,"Shadowood Dr",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1325 S UNIVERSITY AVE","Ann Arbor",MI,42.275187,-83.732763,1,range_interpolation,1325,"S University Ave",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"316 BEAKES ST","Ann Arbor",MI,42.286057,-83.745387,1,range_interpolation,316,"Beakes St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"1500 PAULINE BLVD E","Ann Arbor",MI,42.268485,-83.76546,1,rooftop,1500,"Pauline Blvd",,,"Ann Arbor",MI,"Washtenaw County",48103,US,Semcog
+"616 MONROE ST","Ann Arbor",MI,42.273162,-83.741869,1,range_interpolation,616,"Monroe St",,,"Ann Arbor",MI,"Washtenaw County",48104,US,"TIGER/Line® dataset from the US Census Bureau"
+"607 W MADISON ST","Ann Arbor",MI,42.273826,-83.755057,1,range_interpolation,607,"W Madison St",,,"Ann Arbor",MI,"Washtenaw County",48103,US,"TIGER/Line® dataset from the US Census Bureau"
+"3162 Williamsburg Dr","Ann Arbor",MI,42.23502,-83.696513,0.6,range_interpolation,3162,"Williamsburg Rd",,,"Ann Arbor",MI,"Washtenaw County",48108,US,"TIGER/Line® dataset from the US Census Bureau"
+"1086 ISLAND DR","Ann Arbor",MI,42.28822,-83.73246,1,range_interpolation,1086,"Island Dr",,,"Ann Arbor",MI,"Washtenaw County",48105,US,"TIGER/Line® dataset from the US Census Bureau"
