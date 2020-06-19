@@ -177,7 +177,7 @@
          properties with <span class="red dot"></span> expired certificates,
          and properties that are <span class="purple dot"></span> under review or have a temporary COVID-19 status, and <span class="coop dot"></span> cooperatives.</p>
 
-      <p>The City shared this important disclaimer:</p>
+      <p>The City shared this disclaimer:</p>
       <blockquote>
         It is important to note that not all of these are active rentals, and therefore,
         we cannot ensure the accuracy of the information provided for any
@@ -203,6 +203,44 @@
       -83.799559, 42.222663, -83.6768423, 42.323659
       ];
       var maskPoly = turf.polygon(ann_arbor.coordinates);
+
+      // var water = {
+      //   'id': 'water',
+      //   'type': 'fill',
+      //   'source': 'osm',
+      //   'source-layer': 'waterway',
+      //   "filter": ["in", "class", "waterway_detail", ],
+      //   'paint': {
+      //     'fill-opacity': 0.4,
+      //     'fill-color': '#F6E05E',
+      //   }
+      // }
+
+      var water = {
+        'id': 'water',
+        'type': 'line',
+        'source': 'osm',
+        'source-layer': 'waterway',
+        "filter": ["in", "class", "river", ],
+        'paint': {
+          'line-color': '#85c4c9',
+          'line-width': 10,
+        }
+      }
+      // #d1eeea,#a8dbd9,#85c4c9,#68abb8,#4f90a6,#3b738f,#2a5674
+
+      var water2 = {
+        'id': 'water2',
+        'type': 'fill',
+        'source': 'osm',
+        'source-layer': 'water',
+        //"filter": ["in", "class", "river", ],
+        'paint': {
+          'fill-color': 'hsl(190, 36%, 56%)',
+          'fill-opacity': 0.4,
+        }
+      }
+
 
       var roads = {
         'id': 'roads',
@@ -301,7 +339,7 @@
         },
         'paint': {
           'line-opacity': 1,
-          'line-color': '#EDF2F7',
+          'line-color': '#CBD5E0',
           'line-width': 2
         }
       }
@@ -460,13 +498,17 @@
           }, //sources
           "glyphs": location.origin+location.pathname+"font/{fontstack}/{range}.pbf",
           //       Lower  ==========================================> Higher
-          layers: [roads, roads_minor, address_labels, parcels, permits, labels, mask, border, ]
+          layers: [roads, roads_minor, water2, address_labels, parcels, permits, labels, mask, border, ]
         }
       });
 
       map.on('load', function() {
         var elt = document.getElementById('info')
         var lastParcel = null
+        map.on('mousemove', 'water2', function(e) {
+          var info = e.features[0].properties;
+          console.log("osm", info);
+        })
 
         map.on('mousemove', 'permits', function(e) {
           zoom = map.getZoom();
