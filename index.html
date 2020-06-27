@@ -9,6 +9,7 @@
     <script src="js/city.js"></script>
     <link rel="stylesheet" href="css/mapbox-gl.css">
     <script src='js/turf.min.js'></script>
+    <script src='islands.geojson'></script>
 
     <style>
       * {
@@ -174,9 +175,9 @@
         }
       </style>
 
-      <p>Hover over any point for more information on <span class="green dot"></span> active rentals,
-         properties with <span class="red dot"></span> expired certificates,
-          properties that are <span class="purple dot"></span> under review or have a temporary COVID-19 status, and <span class="coop dot"></span> cooperatives.</p>
+      <p>Hover over any point for more information on <span class="green dot"></span> active rentals (4,256 properties),
+          <span class="red dot"></span> expired certificates (352),
+          <span class="purple dot"></span> under review or have a temporary COVID-19 status (865, 517), and <span class="coop dot"></span> cooperatives (1,103).</p>
 
       <p>The City shared this disclaimer:</p>
       <blockquote>
@@ -323,12 +324,12 @@
         }
       }
 
-                  // carto colors
-                  // #d1eeea,#a8dbd9,#85c4c9,#68abb8,#4f90a6,#3b738f,#2a5674
-                  //#c4e6c3,#96d2a4,#6dbc90,#4da284,#36877a,#266b6e,#1d4f60
-            // emrld  #d3f2a3,#97e196,#6cc08b,#4c9b82,#217a79,#105965,#074050
-            // sunset #fcde9c,#faa476,#f0746e,#dc3977,#dc3977,#b9257a,#7c1d6f
-
+      // carto colors
+      // #d1eeea,#a8dbd9,#85c4c9,#68abb8,#4f90a6,#3b738f,#2a5674
+      // #c4e6c3,#96d2a4,#6dbc90,#4da284,#36877a,#266b6e,#1d4f60
+      // emrld  #d3f2a3,#97e196,#6cc08b,#4c9b82,#217a79,#105965,#074050
+      // sunset #fcde9c,#faa476,#f0746e,#dc3977,#dc3977,#b9257a,#7c1d6f
+      // https://tailwindcss.com/docs/customizing-colors/#default-color-palette
 
       var border = {
         'id': 'border',
@@ -340,8 +341,9 @@
         },
         'paint': {
           'line-opacity': 1,
-          'line-color': '#CBD5E0',
-          'line-width': 2
+          'line-color': '#718096',
+          'line-width': 1,
+          'line-dasharray': [5, 2],
         }
       }
 
@@ -587,6 +589,43 @@
       ​
       stipulations: "1 - 5 bedroom unit with 6 occupants max\n1 - 6 bedroom unit with 6 occupants max"
       */
+
+      // Take the city geometry and break out the islands for convenience
+      console.log("xxx all", all)
+      var shapes = []
+      all.geometry.coordinates.forEach(function(geom) {
+        shapes.push({
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: geom
+          },
+          properties: {}
+        })
+      })
+
+      var city = shapes.shift()
+      var islands = []
+      console.log("xxx city", JSON.stringify(city))
+      city.geometry.coordinates.forEach(function(geom) {
+        islands.push({
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [geom]
+          },
+          properties: {}
+        })
+      })
+      islands.shift();
+      console.log("xxxx islands", islands)
+      console.log(JSON.stringify(islands))
+
+      console.log(JSON.stringify(shapes))
+
+      shapes.forEach(function(shape) {
+
+      })
 
 
       function polyMask(mask, bounds) {
